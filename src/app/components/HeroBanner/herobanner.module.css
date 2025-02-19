@@ -1,0 +1,31 @@
+.section{
+    @apply relative xs:bg-custom-gradient sm:bg-transparent;
+    
+}
+
+.sectionMainDiv{
+    @apply py-[90px];
+}
+
+.Maincontainer{
+    @apply container;
+}
+
+.container_grid{
+    @apply grid grid-cols-12;
+}
+
+.container_coloum{
+    @apply col-span-12 sm:col-span-6 md:col-span-5
+}
+
+.container_h1{
+    @apply text-[5.5dvh] sm:text-[35px] md:text-[45px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] font-montserrat font-bold capitalize text-secondary leading-[1.1]
+}
+
+.container_para{
+    @apply text-secondary font-comfortaa text-[18px] sm:text-[13px] md:text-[13px] lg:text-[15px] xl:text-[18px] 2xl:text-[20px] mt-5  font-bold sm:font-normal
+}
+.container_CTA{
+    @apply flex  gap-3 mt-5
+}
