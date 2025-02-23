@@ -28,7 +28,7 @@ export default function Footer() {
                             </svg>
                             661-548-2574
                         </p>
-                        <p className='font-montserrat sm:text-[11px] md:text-[13px] text-secondary  flex gap-3 content-center justify-center items-center'>
+                        <p className='font-montserrat xs:text-[13px] sm:text-[11px] md:text-[13px] text-secondary  flex gap-3 content-center justify-center items-center'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="19.058" height="13.376" viewBox="0 0 19.058 13.376">
                                 <path id="Path_10" data-name="Path 10" d="M8.227,25A.249.249,0,0,0,8,25.268v1.321l9.529,7.917,9.529-7.917V25.268A.249.249,0,0,0,26.831,25ZM8,27.9v9.748l5.084-5.526L8,27.9Zm19.058,0-5.084,4.222,5.084,5.526V27.9ZM13.835,32.75,8.666,38.376H26.392L21.223,32.75,17.791,35.6a.4.4,0,0,1-.525,0Z" transform="translate(-8 -25)" fill="#cbcbcb" />
                             </svg>

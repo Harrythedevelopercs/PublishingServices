@@ -16,7 +16,7 @@ export default function Bookcaruosel() {
             <div className='py-[60px]'>
                 <div className="container">
                     <div className='mt-3 '>
-                        <h2 className='font-montserrat font-bold xs:text-[6dvw] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-center'>Bestselling First-Time  Authors <br className='hidden md:block' /> Launched by KAA</h2>
+                        <h2 className='font-montserrat leading-tight font-bold xs:text-[6dvw] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-center'>Bestselling <span className='text-primary'>First-Time</span> Authors <br className='hidden md:block' /> Launched by <span className='text-primary'>KAA</span></h2>
                         <p className="xs:text-[3.2dvw] sm:text-[12px] md:text-[13px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-comfortaa md:max-w-[700px] lg:max-w-[800px] xl:max-w-[850px] 2xl:max-w-[900px] mt-3 text-center mx-auto">Work directly with publishing’s most acclaimed and sought-after professionals, including #1 New York Times-bestselling writers, Big-5 publishing executives, and notable literary agents.</p>
                     </div>
                     <div className="overflow-hidden mt-16" ref={emblaRef}>

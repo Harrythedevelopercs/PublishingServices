@@ -12,7 +12,7 @@ export default function Process() {
             <div className=''>
                 <div className='container py-[60px]'>
                     <div className='mt-3 '>
-                        <h2 className='font-montserrat font-bold xs:text-[6dvw] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-center   leading-tight'>Our Process Time Authors <br className='hidden lg:block'/> Launched by KAA</h2>
+                        <h2 className='font-montserrat font-bold xs:text-[6dvw] sm:text-[35px] md:text-[30px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-center   leading-tight'>Our Process <span className='text-primary'>Time Authors</span> <br className='hidden lg:block'/> Launched by <span className='text-primary'>KAA</span></h2>
                         <p className="xs:text-[3.2dvw] sm:text-[12px] md:text-[13px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-comfortaa md:max-w-[700px] lg:max-w-[800px] xl:max-w-[850px] 2xl:max-w-[900px] mt-3 text-center mx-auto">Work directly with publishing’s most acclaimed and sought-after professionals, including #1 New York Times-bestselling writers.</p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ export default function Process() {
                             <div className='content-center'>
 
                             </div>
-                            <div className='flex flex-col items-center md:items-end mt-[30px] md:mt-0'>
+                            <div className='flex flex-col items-center md:items-end lg:items-start mt-[30px] md:mt-0'>
                                 <div className='border-solid border-2 group backdrop-blur-xl border-[#707070] hover:border-primary sm:w-[350px]   md:w-[250px] lg:w-[280px] xl:w-[290px] 2xl:w-[326px] text-center rounded-3xl p-5'>
                                     <Image src={ProcessIcon3} alt="Best Publishing Services" className='mx-auto opacity-50 group-hover:opacity-100' />
                                     <h2 className='font-montserrat font-bold lg:text-[20px] xl:text-[22px] 2xl:text-[25px] mt-5 text-secondary group-hover:text-primary'>3. Development</h2>
@@ -51,7 +51,7 @@ export default function Process() {
                             </div>
                         </div>
                     </div>
-                    <Image src={ProccessBook} alt='Best Publishing Services' className='hidden md:block sm:w-[300px] md:w-[380px] lg:w-[426px] xl:w-[526px] m:h-[340px] lg:h-[390px] xl:h-[490px] absolute sm:top-16 md:top-10 lg:top-10 xl:top-5 sm:left-[25%] md:left-[25%] lg:left-[32%] -z-[9]' />
+                    <Image src={ProccessBook} alt='Best Publishing Services' className='hidden md:block sm:w-[300px] md:w-[380px] lg:w-[426px] xl:w-[526px] 2xl:w-[515px] m:h-[340px] lg:h-[390px] xl:h-[490px] 2xl:h-[510px] absolute sm:top-16 md:top-10 lg:top-10 xl:top-5 sm:left-[25%] md:left-[25%] lg:left-[30%] 2xl:left-[34%] -z-[9]' />
                     <Image src={backgroundImage} fill={true} className='object-contain md:object-fill -z-10' alt="Best Publishing Services" />
                     <div className="flex gap-3 mt-10 pb-10 content-center mx-auto justify-center ">
                         <CTA Primary={true} Href={"#"} Text={"Get A Free Quote"} />
