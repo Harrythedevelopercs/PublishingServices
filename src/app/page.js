@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <Navigation />
       <HeroBanner />
-      <LogoCarousel />
+     
       <DescrptionSection />
       <Services />
       <Process />
