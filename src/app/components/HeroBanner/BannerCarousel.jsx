@@ -29,7 +29,7 @@ export default function BannerCarousel() {
         <div className="overflow-hidden pb-4" ref={emblaRef}>
             <div className="flex [margin-left:calc(1rem_*_-1)] items-center">
                 {[LogoSeven, LogoTwo, LogoThree, LogoFour, LogoFive, LogoSix, LogoOne, LogoFive].map((logo, index) => (
-                    <div key={index} className="pl-4 grow-0 shrink-0">
+                    <div key={index} className="px-4 grow-0 shrink-0 grid">
                         <Image src={logo} alt="booksWorld" />
                     </div>
                 ))} 
