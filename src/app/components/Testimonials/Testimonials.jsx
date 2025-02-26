@@ -25,7 +25,7 @@ export default function Testimonials() {
             }
         };
 
-        const interval = setInterval(autoScroll, 3000); // Auto-scroll every 3 seconds
+        const interval = setInterval(autoScroll, 12000); // Auto-scroll every 3 seconds
         return () => clearInterval(interval);
     }, [emblaApi]);
 
@@ -45,6 +45,10 @@ export default function Testimonials() {
                 <div className="container">
                     <div className="overflow-hidden mt-5 relative" ref={emblaRef}>
                         <div className="flex">
+                            <TestimonialsItem Author="Mark Robert" ImageSrc={T1} Comment="I recently completed my novel The Department of Injustice. Book Writing HQ formatted and printed my book. The books came in on a timely basis, and the graphics for the cover are amazing." />
+                            <TestimonialsItem Author="Sarah Johnson" ImageSrc={T1} Comment="I recently completed my novel The Department of Injustice. Book Writing HQ formatted and printed my book. The books came in on a timely basis, and the graphics for the cover are amazing." />
+                            <TestimonialsItem Author="James Smith" ImageSrc={T1} Comment="I recently completed my novel The Department of Injustice. Book Writing HQ formatted and printed my book. The books came in on a timely basis, and the graphics for the cover are amazing." />
+                            <TestimonialsItem Author="Emma Brown" ImageSrc={T1} Comment="I recently completed my novel The Department of Injustice. Book Writing HQ formatted and printed my book. The books came in on a timely basis, and the graphics for the cover are amazing." />
                             <TestimonialsItem Author="Mark Robert" ImageSrc={T1} Comment="I recently completed my novel The Department of Injustice. Book Writing HQ formatted and printed my book. The books came in on a timely basis, and the graphics for the cover are amazing." />
                             <TestimonialsItem Author="Sarah Johnson" ImageSrc={T1} Comment="I recently completed my novel The Department of Injustice. Book Writing HQ formatted and printed my book. The books came in on a timely basis, and the graphics for the cover are amazing." />
                             <TestimonialsItem Author="James Smith" ImageSrc={T1} Comment="I recently completed my novel The Department of Injustice. Book Writing HQ formatted and printed my book. The books came in on a timely basis, and the graphics for the cover are amazing." />

@@ -51,7 +51,7 @@ export default function Process() {
                             </div>
                         </div>
                     </div>
-                    <Image src={ProccessBook} alt='Best Publishing Services' className='hidden md:block sm:w-[300px] md:w-[380px] lg:w-[426px] xl:w-[526px] 2xl:w-[515px] m:h-[340px] lg:h-[390px] xl:h-[490px] 2xl:h-[510px] absolute sm:top-16 md:top-10 lg:top-10 xl:top-5 sm:left-[25%] md:left-[25%] lg:left-[30%] 2xl:left-[34%] -z-[9]' />
+                    <Image src={ProccessBook} alt='Best Publishing Services' className='hidden md:block w-[526px] h-[490px] absolute  top-0 right-0 bottom-0 left-0 mx-auto -z-[9]' />
                     <Image src={backgroundImage} fill={true} className='object-contain md:object-fill -z-10' alt="Best Publishing Services" />
                     <div className="flex gap-3 mt-10 pb-10 content-center mx-auto justify-center ">
                         <CTA Primary={true} Href={"#"} Text={"Get A Free Quote"} />

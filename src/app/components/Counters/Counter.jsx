@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Counter() {
     return (
         <section>
-            <div className=' my-[60px] relative'>
+            <div className=' py-[60px] relative'>
                 <div className='container '>
                     <div className="grid md:grid-cols-2  ">
                         <div className='grid grid-cols-12 py-[30px]'>

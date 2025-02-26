@@ -15,7 +15,7 @@ export default function Navigation() {
                             <ul className='hidden md:flex gap-2 md:gap-3 lg:gap-5 xl:gap-10 list-none font-montserrat sm:text-[8px] md:text-[12px] lg:text-[15px]   items-center content-center text-right'>
                                 <li className='text-secondary hover:text-primary font-medium'>Book Writing</li>
                                 <li className='text-secondary hover:text-primary font-medium'>Book Editing</li>
-                                <li className='text-secondary hover:text-primary font-medium'>About Us</li>
+                                <li className='text-secondary hover:text-primary font-medium'><Link href={'/about-us/'}> About Us</Link></li>
                                 <li className='text-secondary hover:text-primary font-medium'>Packages</li>
                                 <li className='text-secondary hover:text-primary font-medium'>More Services</li>
                                 <li className='bg-primary text-white font-montserrat uppercase px-[15px] md:px-[25px] py-[5px] md:py-[10px] font-bold flex content-center justify-center items-center'>Contact Us</li>

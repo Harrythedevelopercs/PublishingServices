@@ -4,7 +4,7 @@ import { DescrptionSection, HeroBanner, LogoCarousel, Navigation, Services, Proc
 export default function Home() {
   return (
     <div>
-      <Navigation />
+    
       <HeroBanner />
      
       <DescrptionSection />
