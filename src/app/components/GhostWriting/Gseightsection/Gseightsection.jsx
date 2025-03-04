@@ -46,7 +46,7 @@ export default function Gseightsection() {
                                     },
                                 ].map(({ icon, title, desc }, i) => (
                                     <div key={i} className='p-8 rounded-lg border-[1px] border-gray-500'>
-                                        <Image src={icon} width={60} height={60}/>
+                                        <Image src={icon} width={60} height={60} alt="BSP"/>
                                         <h3 className='font-montserrat texd-[20px] font-bold mt-5'>{title}</h3>
                                         <p className='font-comfortaa text-[13px] mt-3'>{desc}</p>
                                     </div>

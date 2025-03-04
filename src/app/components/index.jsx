@@ -5,6 +5,11 @@ import GSfivesection from './GhostWriting/five-section/GSfivesection'
 import Gssixsections from './GhostWriting/GsSixSection/Gssixsections'
 import Gssevensection from './GhostWriting/GSseven-section/Gssevensection'
 import Gseightsection from './GhostWriting/Gseightsection/Gseightsection'
+import GSNinesection from './GhostWriting/GSNine-section/GSNinesection'
+import GSTensection from './GhostWriting/GSTensection/GSTensection'
+import TabSection from './GhostWriting/TabSection/TabSection'
+import TwelveSection from './GhostWriting/TwelveSection/TwelveSection'
+import BPSHomeBanner from './BookPublishingServices/BPSHomeBanner/BPSHomeBanner'
 
 
 
@@ -31,4 +36,4 @@ const ServicesDescription = dynamic(() => import('./GhostWriting/ServicesDescrip
 
 
 
-export { Navigation, HeroBanner, CTA, LogoCarousel, Carousel, DescrptionSection, Services, Process, Bookcaruosel, Testimonials, Counter, ContactForm, AboutBanner, ServiceInclude, LeftCol, HeroContact, HeroBannerGhost, ServicesDescription, GSthirdsection, GSfourthsection, GSfivesection, Gssixsections,Gssevensection,Gseightsection }
+export { Navigation, HeroBanner, CTA, LogoCarousel, Carousel, DescrptionSection, Services, Process, Bookcaruosel, Testimonials, Counter, ContactForm, AboutBanner, ServiceInclude, LeftCol, HeroContact, HeroBannerGhost, ServicesDescription, GSthirdsection, GSfourthsection, GSfivesection, Gssixsections, Gssevensection, Gseightsection, GSNinesection, GSTensection, TabSection, TwelveSection, BPSHomeBanner }

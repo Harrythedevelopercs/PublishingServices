@@ -1,18 +1,18 @@
 .section{
-    @apply relative bg-transparent overflow-hidden;
+    @apply relative bg-transparent overflow-hidden
     
 }
 
 .sectionMainDiv{
-    @apply py-[90px] ;
+    @apply py-[90px] 
 }
 
 .Maincontainer{
-    @apply container;
+    @apply container
 }
 
 .container_grid{
-    @apply grid grid-cols-12;
+    @apply grid grid-cols-12 
 }
 
 .container_coloum{

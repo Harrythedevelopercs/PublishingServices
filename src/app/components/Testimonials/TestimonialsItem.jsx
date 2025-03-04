@@ -4,7 +4,7 @@ import React from 'react'
 export default function TestimonialsItem({ImageSrc,Author,Comment}) {
     return (
         <div className=" grow-0 shrink-0 xs:basis-1/3 sm:basis-1/2 md:basis-1/3 lg:basis-1/3 px-4 ">
-            <div className='border-[1px] border-solid border-[#E2E2E2] w-[330px] md:w-[380px] h-[301px] rounded-xl flex flex-col justify-center content-center items-center text-center px-10'>
+            <div className='border-[1px] border-solid bg-white border-primary w-[330px] md:w-[380px] h-[301px] rounded-xl flex flex-col justify-center content-center items-center text-center px-10'>
                 <Image src={ImageSrc} alt="Best publishing Services" />
                 <div className='mb-5'></div>
                 <svg id="Group_169" data-name="Group 169" xmlns="http://www.w3.org/2000/svg" width="89.497" height="13.396" viewBox="0 0 89.497 13.396">
