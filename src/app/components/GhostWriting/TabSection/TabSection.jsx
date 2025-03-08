@@ -163,7 +163,7 @@ export default function TabSection() {
                                         <Image src={B5} alt="booksWorld" className='mx-auto' />
                                     </div>
                                 </div></TabsContent>
-                            <TabsContent value="Informative">\
+                            <TabsContent value="Informative">
                                 <div className="flex flex-row gap-5 justify-between mt-10">
                                     <div className=" ">
                                         <Image src={B1} alt="booksWorld" className='mx-auto' />
