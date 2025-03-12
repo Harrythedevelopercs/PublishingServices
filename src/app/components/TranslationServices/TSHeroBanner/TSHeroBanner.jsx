@@ -2,7 +2,8 @@ import React from 'react'
 import { CTA } from '../..'
 import HeroBannerImage from 'media/TS.png';
 import Image from 'next/image';
-import formIMG from 'media/formIMG.png';
+import BTSFORM from 'media/BTSFORM.png';
+import ttrating from 'media/ttrating.png';
 import BannerCarousel from '../../HeroBanner/BannerCarousel';
 
 export default function TSHeroBanner() {
@@ -12,7 +13,7 @@ export default function TSHeroBanner() {
                 <div className='container'>
                     <div className="grid grid-cols-2">
                         <div className='flex justify-center flex-col'>
-                            <h1 className='text-[20] font-montserrat font-bold text-white uppercase'>Professional Book Publishing Services</h1>
+                            <h1 className='text-[20] font-montserrat font-bold text-white uppercase'>Book Translation Service</h1>
                             <h2 className='text-[50px] font-montserrat leading-tight capitalize font-semibold text-white mt-4'>Professional The Best <span className='text-primary'>Book Publishing</span>, Book Editing & <span className='text-primary'>Marketing</span> Solutions!</h2>
                             <p className='text-[18px] font-comfortaa mt-4 text-white'>We have a track record of publishing thousands of successful manuscripts meticulously written, edited, designed, and formatted. many of the published works we have done for our clients have created a buzz in the literary sphere and ranked among the best sellers.</p>
                             <div className="flex gap-3 mt-5">
@@ -20,9 +21,42 @@ export default function TSHeroBanner() {
                                 <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
                             </div>
                         </div>
-                        <div className='px-32 relative  pb-10 '>
-                            <div className='bg-white py-10 rounded-xl'>
-                                <h3>100% Done by Humans</h3>
+                        <div className='px-20 relative  pb-10 '>
+                            <div className='bg-white py-[50px] px-[35px] rounded-xl shadow-xl'>
+                                <div className='flex flex-col justify-center items-center'>
+                                    <h4 className='font-comfortaa text-secondary text-[14px]'>100% Done by Humans</h4>
+                                    <h2 className='font-comfortaa font-bold text-[33px] text-primary'>Book Translation Service</h2>
+                                    <p className='text-secondary font-comfortaa text-[14px]'>
+                                        98.5% customer satisfaction, 850 million words translated
+                                    </p>
+                                    <div className='flex flex-row w-full justify-between mt-5 '>
+                                        <div className='border-2 border-primary py-[10px] pl-[10px] pr-[30px]'>
+                                            <h5 className='text-[#A8A8A8] font-comfortaa text-[16px]'>From</h5>
+                                            <h3 className='text-primary font-bold font-comfortaa text-[28px]'>$0.07</h3>
+                                            <h5 className='text-[#A8A8A8] font-comfortaa text-[16px]'>per word</h5>
+                                        </div>
+                                        <div className='border-2 border-primary py-[10px] pl-[10px] pr-[30px]'>
+                                            <h5 className='text-[#A8A8A8] font-comfortaa text-[16px]'>From</h5>
+                                            <h3 className='text-primary font-bold font-comfortaa text-[28px]'>$0.08</h3>
+                                            <h5 className='text-[#A8A8A8] font-comfortaa text-[16px]'>per minute</h5>
+                                        </div>
+                                        <div className='border-2 border-primary py-[10px] pl-[10px] pr-[30px]'>
+                                            <h5 className='text-[#A8A8A8] font-comfortaa text-[16px]'>Turnaround</h5>
+                                            <h3 className='text-primary font-bold font-comfortaa text-[28px]'>1-3 Day</h3>
+                                        </div>
+                                    </div>
+                                    <div className='w-full border-2 border-primary mt-5 '>
+                                        <Image src={BTSFORM} alt='BSP' className='mx-auto' />
+                                    </div>
+                                    <div className='w-full mt-5'>
+                                        <Image src={ttrating} alt="BPS" className='w-[40%] mx-auto' />
+                                    </div>
+                                    <div className='w-full bg-primary py-3 mt-5'>
+                                        <h5 src={ttrating} alt="BPS" className='text-center text-white capitalize  font-montserrat font-bold text-[15px]'>
+                                            order human translation
+                                        </h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

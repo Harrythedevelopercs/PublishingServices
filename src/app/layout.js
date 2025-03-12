@@ -21,7 +21,7 @@ const comfortaa = Comfortaa({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${comfortaa.variable} transition-all duration-1000`}>
+      <body className={`${montserrat.variable} ${comfortaa.variable} transition-all duration-1000 bg-white`}>
         <Navigation />
         {children}
         <Footer />
