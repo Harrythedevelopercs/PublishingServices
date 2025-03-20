@@ -15,7 +15,7 @@ import r4 from 'media/r4.png';
 
 export default function Footer() {
     return (
-        <section className='bg-[#F4F4F4] pt-[60px] '>
+        <footer className='bg-[#F4F4F4] pt-[60px] '>
             <div>
                 <div className='container'>
                     <div className='grid grid-cols-12 py-[30px]'>
@@ -132,6 +132,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-        </section>
+        </footer>
     )
 }

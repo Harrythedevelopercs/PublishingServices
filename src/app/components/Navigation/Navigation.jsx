@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Navigation() {
     return (
-        <section >
+        <header >
             <div>
                 <div className='container'>
                     <div className='grid h-[85px] grid-cols-12  content-center items-center '>
@@ -24,6 +24,6 @@ export default function Navigation() {
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
     )
 }

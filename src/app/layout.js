@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${montserrat.variable} ${comfortaa.variable} transition-all duration-1000 bg-white`}>
         <Navigation />
+        <main>
         {children}
+        </main>
         <Footer />
       </body>
     </html>
