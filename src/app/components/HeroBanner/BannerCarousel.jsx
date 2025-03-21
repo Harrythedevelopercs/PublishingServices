@@ -12,7 +12,7 @@ import LogoFive from "media/Logos/sic.webp"
 import LogoSeven from "media/Logos/seven.webp"
 import Image from "next/image"
 
-export default function BannerCarousel() {
+export default function BannerCarousel({ isDark = false }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     Autoplay({ delay: 2000 }),
   ])
@@ -48,8 +48,16 @@ export default function BannerCarousel() {
           LogoOne,
           LogoFive,
         ].map((logo, index) => (
-          <div key={index} className="xs:px-0 px-4 grow-0 shrink-0 grid  ">
-            <Image src={logo} alt="booksWorld" className="xs:w-[80%] " />
+          <div key={index} className="xs:px-0 px-4 grow-0 shrink-0 grid">
+            {isDark ? (
+              <Image
+                src={logo}
+                alt="booksWorld"
+                className="xs:w-[80%] brightness-100 invert"
+              />
+            ) : (
+              <Image src={logo} alt="booksWorld" className="xs:w-[80%]" />
+            )}
           </div>
         ))}
       </div>
