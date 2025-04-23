@@ -9,7 +9,7 @@ import {
   Process2,
   Testimonials,
   ContactForm,
-} from "../components"
+} from "@/components/website/index"
 
 const ChildrenBookIllustrations = () => {
   return (

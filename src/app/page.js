@@ -1,12 +1,10 @@
 
-import { DescrptionSection, HeroBanner, LogoCarousel, Navigation, Services, Process, Bookcaruosel, Testimonials, Counter, ContactForm } from "./components";
+import { DescrptionSection, HeroBanner, Services, Process, Bookcaruosel, Testimonials, Counter, ContactForm } from "@/components/website/index";
 
 export default function Home() {
   return (
-    <div>
-    
+    <div>    
       <HeroBanner />
-     
       <DescrptionSection />
       <Services />
       <Process />
@@ -14,7 +12,6 @@ export default function Home() {
       <Testimonials />
       <Counter />
       <ContactForm />
-      
     </div>
   );
 }

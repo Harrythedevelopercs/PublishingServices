@@ -1,5 +1,5 @@
 
-import { DescrptionSection, HeroBanner, LogoCarousel, Navigation, Services, Process, Bookcaruosel, Testimonials, Counter, ContactForm, AboutBanner, ServiceInclude, LeftCol } from "../components";
+import { DescrptionSection, HeroBanner, LogoCarousel, Navigation, Services, Process, Bookcaruosel, Testimonials, Counter, ContactForm, AboutBanner, ServiceInclude, LeftCol } from "@/components/website/index";
 export default function page() {
   return (
     <div>

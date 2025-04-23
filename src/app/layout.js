@@ -1,7 +1,7 @@
 import { Montserrat, Comfortaa } from "next/font/google";
 import "./globals.css";
-import Footer from "./components/Footer/Footer";
-import { Header } from "./components";
+import Footer from "@/components/website/Footer/Footer";
+import { Header } from "@/components/website";
 
 
 const montserrat = Montserrat({

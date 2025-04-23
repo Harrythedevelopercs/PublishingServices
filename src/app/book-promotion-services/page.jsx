@@ -11,7 +11,7 @@ const {
   FAQs,
   Testimonials,
   ContactForm,
-} = require("../components")
+} = require("@/components/website/index")
 
 const BookPromotersServices = () => {
   return (
