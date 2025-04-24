@@ -103,17 +103,17 @@ export default function TimelessStories({ label = false }) {
   }, [setURL])
   return (
     <section>
-      <div className="relative z-10 overflow-hidden py-[80px]">
+      <div className="relative z-10 overflow-hidden lg:py-[80px] py-[50px]">
         <div className="container">
-          <div className="grid grid-cols-2 gap-x-5 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-8 items-center">
             <div className="max-w-[600px]">
-              <h2 className="font-montserrat text-[40px] font-bold leading-tight mb-3">
+              <h2 className="font-montserrat 2xl:text-[40px] xl:text-[35px] lg:text-[30px] md:text-[25px] text-[20px] font-bold leading-tight mb-3">
                 Bring Magical Kids’ Stories to Life with Best Publishing Services
               </h2>
-              <p className="text-[16px] font-comfortaa font-medium leading-normal mb-5">
+              <p className="xl:text-[16px] lg:text-[14px] text-[12px] font-comfortaa font-medium leading-normal mb-5">
                 Dreaming of writing a children’s book that young readers will love? At Best Publishing Services (BPS), we’re here to help you turn your ideas into magical, unforgettable stories. Whether you’re writing for toddlers, early readers, or middle-grade adventurers, our team knows how to form stories that inspire imagination and enchant hearts. With our full range of children’s book publishing services, you’ll get expert support at every step. From plot development and character creation to publishing, we ensure your book looks and reads like a true classic. But we don’t stop there. Our marketing and distribution services help your book find its way into the hands of eager readers—both online and in stores. With BPS by your side, you can publish with confidence and pride.
               </p>
-              <p className="text-[16px] font-comfortaa font-medium leading-normal">
+              <p className="xl:text-[16px] lg:text-[14px] text-[12px] font-comfortaa font-medium leading-normal">
                 Let’s create a story that children will treasure for years to come. Join BPS and bring your children’s book dream to life!
               </p>
               <div className="flex items-center gap-x-3 mt-8">
@@ -125,10 +125,10 @@ export default function TimelessStories({ label = false }) {
               <Form {...form}>
                 <form
                   onSubmit={form.handleSubmit(handleSubmit)}
-                  className="grid grid-cols-1 gap-5 bg-[#F2F2F2] py-[40px] px-[70px] rounded-[20px] max-w-[550px] ms-auto text-center"
+                  className="grid grid-cols-1 gap-5 bg-[#F2F2F2] py-[40px] md:px-[70px] px-[30px] rounded-[20px] max-w-[550px] lg:ms-auto lg:mx-0 mx-auto text-center"
                 >
                   <div>
-                    <h3 className="font-comfortaa text-[20px] font-bold leading-normal max-w-[340px] mx-auto">
+                    <h3 className="font-comfortaa xl:text-[20px] md:text-[18px] text-[16px] font-bold leading-normal max-w-[340px] mx-auto">
                       Happy St Patrick's Day: Talk to our consultant through The
                       chat & uncover your Pot of Gold
                     </h3>

@@ -14,7 +14,7 @@ export default function AchievementsShowcase() {
       <div className="relative z-10 overflow-hidden lg:py-[80px] py-[50px] bg-primary">
         <div className="container">
           <div className="text-center text-white max-w-[1200px] mx-auto">
-            <h2 className="font-montserrat xl:text-[60px] lg:text-[50px] md:text-[40px] sm:text-[30px] text-[25px] text-center font-bold leading-normal mb-3">
+            <h2 className="font-montserrat lg:text-[45px] md:text-[40px] sm:text-[30px] text-[25px] text-center font-bold leading-normal mb-3">
               A Portfolio That Shines the Limelight on Our Work
             </h2>
             <p className="font-comfortaa xl:text-[20px] lg:text-[16px] md:text-[15px] text-sm font-medium leading-normal">

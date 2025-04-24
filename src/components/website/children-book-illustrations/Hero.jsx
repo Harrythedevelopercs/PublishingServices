@@ -7,7 +7,7 @@ import BannerCarousel from "../HeroBanner/BannerCarousel"
 export default function Hero() {
   return (
     <section>
-      <div className="relative z-10 overflow-hidden pt-[105px]">
+      <div className="relative z-10 overflow-hidden md:pt-[105px] py-[50px]">
         <Image
           src={Banner}
           alt="banner"
@@ -17,12 +17,12 @@ export default function Hero() {
         />
         <span className="absolute inset-0 -z-10 w-full h-full bg-[linear-gradient(90deg,_rgba(31,24,44,0.89)_0%,_rgba(31,24,44,0.77)_100%)]"></span>
         <div className="container">
-          <div className="grid grid-cols-2 gap-x-5 gap-y-8 items-center">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-5 gap-y-8 items-center">
             <div className="text-white max-w-[600px]">
-              <h1 className="font-montserrat text-[40px] font-bold leading-normal mb-3">
+              <h1 className="font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal mb-3">
               Illustrative Children’s Book for All Ages
               </h1>
-              <p className="text-primary font-montserrat text-[26px] font-bold leading-tight">
+              <p className="text-primary font-montserrat xl:text-[24px] lg:text-[20px] md:text-[18px] sm:text-[16px] text-[14px] font-bold leading-tight">
               Not all masterpieces are located in the museum. Best Publishing Services create some
               </p>
               <ul className="mt-8">

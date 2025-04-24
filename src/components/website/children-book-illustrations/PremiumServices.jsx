@@ -106,17 +106,17 @@ export default function PremiumServices({ label = false }) {
       }, [setURL])
   return (
     <section>
-      <div className="relative z-10 overflow-hidden py-[80px]">
+      <div className="relative z-10 overflow-hidden lg:py-[80px] py-[50px]">
         <div className="container">
-          <div className="grid grid-cols-2 items-center gap-x-5 gap-y-8">
+          <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8">
             <div className="max-w-[700px]">
-              <h2 className="font-montserrat max-w-[600px] text-[40px] font-bold leading-normal mb-3">
+              <h2 className="font-montserrat max-w-[600px] xl:text-[40px] lg:text-[30px] md:text-[25px] text-[20px] font-bold leading-normal mb-3">
               Beyond Illustrations — An Entire Range of Publishing Services
               </h2>
-              <p className="font-comfortaa text-base font-medium leading-normal">
+              <p className="font-comfortaa xl:text-base lg:text-[14px] text-[12px] font-medium leading-normal">
               Whether it is a story of triumph, a fantastic adventure, or a personal journey, our team of talented illustrators for hire produces lively, impressive illustrations. Our goal is to ensure that your story resonates with young readers and makes an impact.
               </p>
-              <ul className="mt-8 grid grid-cols-2 gap-5">
+              <ul className="mt-8 grid lg:grid-cols-2 grid-cols-1 gap-5">
                 {[
                   "Children Illustrations",
                   "eBook Writing",
@@ -127,7 +127,7 @@ export default function PremiumServices({ label = false }) {
                 ].map((e, i) => (
                   <li
                     key={i}
-                    className="flex font-comfortaa text-base font-medium leading-normal items-center gap-x-2"
+                    className="flex font-comfortaa xl:text-base lg:text-[14px] text-[12px] font-medium leading-normal items-center gap-x-2"
                   >
                     <Image src={CheckIcon} alt="icon" className="shrink-0" />
                     <span className="block">{e}</span>
@@ -139,13 +139,13 @@ export default function PremiumServices({ label = false }) {
               <Form {...form}>
                 <form
                   onSubmit={form.handleSubmit(handleSubmit)}
-                  className="grid grid-cols-1 gap-5 bg-[#F2F2F2] p-[40px] rounded-[20px] max-w-[450px] ms-auto text-center"
+                  className="grid grid-cols-1 gap-5 bg-[#F2F2F2] md:p-[40px] py-[40px] px-[20px] rounded-[20px] max-w-[450px] lg:ms-auto lg:mx-0 mx-auto text-center"
                 >
                   <div>
-                    <h3 className="font-comfortaa text-[21px] font-bold text-primary leading-normal">
+                    <h3 className="font-comfortaa xl:text-[21px] text-[18px] font-bold text-primary leading-normal">
                       UP TO 50% OFF ON
                     </h3>
-                    <h4 className="font-comfortaa text-[16px] font-bold leading-normal mb-5">
+                    <h4 className="font-comfortaa xl:text-[16px] text-[14px] font-bold leading-normal mb-5">
                       Children Illustrations Package
                     </h4>
                   </div>

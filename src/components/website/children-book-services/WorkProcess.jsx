@@ -21,10 +21,10 @@ export default function WorkProcess() {
   ]
   return (
     <section>
-      <div className="relative z-10 overflow-hidden py-[80px]">
+      <div className="relative z-10 overflow-hidden lg:py-[80px] py-[50px]">
         <div className="container">
           <div className="mb-10">
-            <h2 className="text-[37px] font-montserrat font-bold leading-normal">
+            <h2 className="2xl:text-[37px] xl:text-[30px] lg:text-[25px] md:text-[20px] text-[18px] font-montserrat font-bold leading-normal">
             The Fun and Easy Way to Publish Your Children’s Book with Us
             </h2>
           </div>
@@ -34,7 +34,7 @@ export default function WorkProcess() {
             options={{ align: "start" }}
           >
             {data?.map(([title, description], i) => (
-              <div key={i} className="grow-0 shrink-0 basis-[23.3%] mx-3">
+              <div key={i} className="grow-0 shrink-0 xl:basis-[23.3%] lg:basis-[31%] md:basis-[47%] basis-[100%] mx-3">
                 <div className="bg-[#F2F2F2] p-8 h-full">
                   <h3
                     className="text-[40px] font-montserrat tracking-wider font-extrabold text-transparent mb-5"

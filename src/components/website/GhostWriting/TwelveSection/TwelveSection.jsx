@@ -7,13 +7,13 @@ import Image from 'next/image';
 export default function TwelveSection() {
     return (
         <section>
-            <div className='py-[80px]'>
+            <div className='lg:py-[80px] py-[50px]'>
                 <div className='container'>
-                    <h2 className='font-montserrat font-bold text-[60px] leading-tight text-center'>Our <span className='text-primary'>Comprehensive Ghostwriting</span> <br /> Services For Aspiring Authors</h2>
-                    <p className='text-[16px] font-comfortaa text-secondary mx-auto max-w-[70%] text-center mt-5'>
+                    <h2 className='font-montserrat font-bold 2xl:text-[60px] xl:text-[50px] lg:text-[40px] md:text-[30px] text-[20px] leading-tight text-center'>Our <span className='text-primary'>Comprehensive Ghostwriting</span> <br /> Services For Aspiring Authors</h2>
+                    <p className='xl:text-[16px] md:text-[15px] text-sm font-comfortaa text-secondary mx-auto max-w-[70%] text-center mt-5'>
                         We have experienced ghostwriters who know how to create immersive and attractive content that speaks to readers on many levels. We always deliver standard quality work, no matter the genre.
                     </p>
-                    <div className='mt-10 grid grid-cols-3 gap-10'>
+                    <div className='mt-10 grid lg:grid-cols-3 grid-cols-1 gap-10'>
                         {
                             [
                                 {

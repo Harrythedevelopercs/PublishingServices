@@ -127,7 +127,7 @@ export default function Hero({ label = false }) {
               <span className="block text-primary font-montserrat xl:text-[26px] sm:text-[22px] text-[16px] font-bold leading-tight">
               Boost Your Book’s Success with Expert Marketing Services
               </span>
-              <h1 className="font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal my-3">
+              <h1 className="font-montserrat xl:text-[35px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal my-3">
               Become a Bestselling Author with Professional Book Promotion and Marketing
               </h1>
               <p className="xl:text-[16px] md:text-[15px] text-sm font-semibold font-comfortaa leading-normal  max-w-[520px]">

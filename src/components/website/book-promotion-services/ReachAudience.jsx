@@ -9,13 +9,13 @@ export default function ReachAudience() {
         <div className="container">
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8">
             <div className="max-w-[650px]">
-              <h2 className="max-w-[600px] font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal mb-3">
+              <h2 className="max-w-[600px] font-montserrat xl:text-[35px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal mb-3">
               Supercharge Your Book’s Success with Expert Marketing from Best Publishing Services
               </h2>
               <p className="font-comfortaa xl:text-[16px] md:text-[15px] text-sm font-normal leading-normal">
               Now that your book is finished and looks great, it’s time to distribute it to people. Best Publishing Services makes the difficult process of publishing a book simple. Our comprehensive book marketing services help you create a strong author brand, boost sales, and connect with the ideal readers.
               </p>
-              <h3 className="font-montserrat xl:text-[30px] lg:text-[28px] md:text-[25px] sm:text-[20px] text-[18px] font-bold leading-normal mt-8">
+              <h3 className="font-montserrat lg:text-[28px] md:text-[25px] sm:text-[20px] text-[18px] font-bold leading-normal mt-5">
               Connect with Your Ideal Readers Using Our Professional Book Marketing Services
               </h3>
               <ul className="mt-5">

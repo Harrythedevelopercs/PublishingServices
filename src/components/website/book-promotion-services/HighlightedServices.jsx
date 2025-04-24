@@ -14,7 +14,7 @@ export default function HighlightedServices() {
         <div className="container">
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8">
             <div className="max-w-[670px]">
-              <h2 className="max-w-[600px] font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-tight mb-3">
+              <h2 className="max-w-[600px] font-montserrat xl:text-[35px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-tight mb-3">
                 Inevitable Success with Best Publishing Services Marketing
               </h2>
               <p className="font-comfortaa xl:text-[16px] md:text-[15px] text-sm font-normal leading-normal">

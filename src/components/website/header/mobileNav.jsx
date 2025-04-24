@@ -1,5 +1,5 @@
 // Next
-import Link from "next/link"
+import Link from "next/link";
 // Components
 import {
   Sheet,
@@ -8,62 +8,42 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet"
-import { CTA } from "../index"
+} from "@/components/ui/sheet";
+import { CTA } from "../index";
 // React
-import { useState } from "react"
+import { useState } from "react";
 // Lucide
-import { ChevronsRight } from "lucide-react"
+import { ChevronsRight } from "lucide-react";
 
 const mainMenu = [
   ["Home", "/"],
   ["Services"],
-  ["Book Writing", "/"],
-  ["Book Editing", "/"],
+  ["Book Promotion", "/book-promotion-services"],
+  ["Book Publishing", "/book-publishing-services"],
   ["About Us", "/about-us"],
-  ["Packages", "/"],
-]
+  ["Contact Us", "/contact-us"],
+];
 
 const servicesMenu = [
   {
-    title: "Service 1",
-    link: "/",
+    title: "Book Translation",
+    link: "/book-translation-services",
   },
   {
-    title: "Service 2",
-    link: "/",
+    title: "Children Book Illustration",
+    link: "/children-book-illustration",
   },
   {
-    title: "Service 3",
-    link: "/",
+    title: "Children Book Services",
+    link: "/children-book-services",
   },
   {
-    title: "Service 4",
-    link: "/",
+    title: "Ghost Writing",
+    link: "/ghostwriting-services",
   },
-  {
-    title: "Service 5",
-    link: "/",
-  },
-  {
-    title: "Service 6",
-    link: "/",
-  },
-  {
-    title: "Service 7",
-    link: "/",
-  },
-  {
-    title: "Service 8",
-    link: "/",
-  },
-  {
-    title: "Service 9",
-    link: "/",
-  },
-]
+];
 export default function MobileNav() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger className="w-[50px] m-auto mt-1">
@@ -117,7 +97,11 @@ export default function MobileNav() {
               </div>
             ) : (
               <li key={i}>
-                <Link onClick={() => setIsOpen(false)} href={link} className="text-sm">
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  href={link}
+                  className="text-sm"
+                >
                   {text}
                 </Link>
               </li>
@@ -129,5 +113,5 @@ export default function MobileNav() {
         </div>
       </SheetContent>
     </Sheet>
-  )
+  );
 }

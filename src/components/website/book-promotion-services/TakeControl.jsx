@@ -21,8 +21,8 @@ export default function TakeControl() {
                         {data?.map(([img, title, description], i) => (
                             <div key={i} className="lg:basis-[30%] md:basis-[47%] basis-full h-full bg-[#F2F2F2] py-[40px] sm:px-[40px] px-[30px] text-center">
                                 <Image src={img} alt="icons" className="mx-auto" />
-                                <h3 className="font-montserrat md:min-h-[70px] xl:text-[24px] text-[20px] font-bold leading-normal mt-3">{title}</h3>
-                                <p className="font-comfortaa min-h-[150px] text-[16px] font-normal leading-normal mt-3">
+                                <h3 className="font-montserrat md:min-h-[120px] 2xl:text-[24px] text-[20px] font-bold leading-normal mt-3">{title}</h3>
+                                <p className="font-comfortaa min-h-[220px] text-[16px] font-normal leading-normal mt-3">
                                     {description}
                                 </p>
                             </div>

@@ -42,9 +42,9 @@ export default function WhyChoose() {
                   key={i}
                   className="lg:border-r-2 border-primary last:lg:border-r-0 odd:sm:border-r-2 text-center"
                 >
-                  <div className="sm:max-w-[200px] mx-auto">
+                  <div className="sm:max-w-[280px] mx-auto">
                     <Image src={img} alt="icon" className="mx-auto" />
-                    <h3 className="font-montserrat sm:max-w-[180px] mx-auto text-[20px] font-bold leading-normal my-3">
+                    <h3 className="font-montserrat sm:max-w-[280px] mx-auto text-[20px] font-bold leading-normal my-3">
                       {title}
                     </h3>
                     <p className="font-montserrat text-[14px] font-medium leading-normal mb-3">

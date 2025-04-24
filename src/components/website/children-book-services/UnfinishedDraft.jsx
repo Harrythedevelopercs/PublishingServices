@@ -7,15 +7,15 @@ export default function UnfinishedDraft() {
     <section>
       <div className="relative z-10 overflow-hidden py-[20px]">
         <div className="container">
-          <div className="grid grid-cols-2 items-center gap-x-5">
+          <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8">
             <div className="max-w-[600px]">
-              <h2 className="font-montserrat text-[40px] font-bold leading-tight mb-4 max-w-[550px]">
+              <h2 className="font-montserrat xl:text-[40px] lg:text-[35px] md:text-[30px] text-[20px] font-bold leading-tight mb-4 max-w-[550px]">
               Exhausted of Tossing Drafts in the Bin?
               </h2>
-              <p className="font-comfortaa text-[16px] font-normal leading-normal">
+              <p className="font-comfortaa lg:text-[16px] md:text-[15px] text-[14px] font-normal leading-normal">
               Have an idea but can’t seem to execute it? Our experts know why.
               </p>
-              <ul className="mt-8 grid grid-cols-2 gap-x-5 gap-y-4">
+              <ul className="mt-8 grid sm:grid-cols-2 grid-cols-1 gap-x-5 gap-y-4">
                 {[
                   "Not enough time.",
                   "Stuck in the story.",
@@ -31,7 +31,7 @@ export default function UnfinishedDraft() {
                 ].map((e, i) => (
                   <li
                     key={i}
-                    className="flex font-comfortaa text-base font-medium leading-normal items-center gap-x-2"
+                    className="flex font-comfortaa lg:text-[16px] md:text-[15px] sm:text-[14px] text-[12px] font-medium leading-normal items-start gap-x-2"
                   >
                     <Image src={CheckIcon} alt="icon" className="shrink-0" />
                     <span className="block">{e}</span>

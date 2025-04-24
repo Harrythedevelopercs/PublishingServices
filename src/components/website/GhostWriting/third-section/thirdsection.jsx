@@ -5,18 +5,18 @@ import Image from 'next/image';
 export default function GSthirdsection() {
     return (
         <section>
-            <div className='py-[80px]'>
+            <div className='lg:py-[80px] py-[50px]'>
                 <div className='container'>
-                    <div className='grid grid-cols-2'>
+                    <div className='grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8'>
                         <div>
-                            <Image src={GS} alt='BSP' className='w-[65%] ' />
+                            <Image src={GS} alt='BSP' className='lg:w-[65%] mx-auto' />
                         </div>
                         <div>
-                            <h2 className='font-montserrat text-[40px] font-bold text-secondary leading-tight'>What Makes Our Ghostwriting Company The Top Choice Today?</h2>
-                            <p className='font-comfortaa text-[16px] mt-4'>
+                            <h2 className='font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold text-secondary leading-tight'>What Makes Our Ghostwriting Company The Top Choice Today?</h2>
+                            <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4'>
                                 Even the best authors occasionally rely on ghostwriters sometimes to meet strict deadlines or tackle the demands of their projects. In fact, you might be surprised to learn that certain parts of your favorite books were actually penned with the help of a ghostwriter.
                             </p>
-                            <p className='font-comfortaa text-[16px] mt-4'>
+                            <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4'>
                                 Our best ghostwriters for hire match the author’s voice, tone, and style so perfectly that it feels natural. They don’t only write, but they also make sure the story stays authentic to the author. Our ghost writing services stand out for a reason, and here’s what makes our team one of the most sought-after in the industry:
                             </p>
                             <ul className='mt-4 list-none '>
@@ -29,7 +29,7 @@ export default function GSthirdsection() {
                                         "Our ghostwriting company offers new perspectives that make the book feel unique and mesmerizing.",
                                         "We refine and trim unnecessary content to improve the overall flow and quality."
                                     ].map((element, ket) => (
-                                        <li key={ket} className='flex gap-5 content-center items-center text-[16px] py-[5px]'>
+                                        <li key={ket} className='flex gap-5 content-center items-center xl:text-[16px] md:text-[15px] text-sm py-[5px]'>
                                             <span>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                                     <path id="Vector" d="M9,18a9,9,0,1,0-6.364-2.636A9,9,0,0,0,9,18ZM13.768,6.64,12.232,5.36l-4.3,5.159L5.707,8.293,4.293,9.707l3.774,3.774Z" fill="#58d639" fillRule="evenodd" />

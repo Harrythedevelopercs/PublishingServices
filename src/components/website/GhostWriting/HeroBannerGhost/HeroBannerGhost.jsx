@@ -7,29 +7,29 @@ import BannerCarousel from '../../HeroBanner/BannerCarousel';
 
 export default function HeroBannerGhost() {
   return (
-    <section className=''>
-      <div className=' relative flex flex-col justify-center '>
+    <section>
+      <div className=' relative flex flex-col justify-center lg:py-0 md:pt-[60px] py-[50px]'>
         <div className='container'>
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-5 gap-y-8">
             <div className='flex justify-center flex-col'>
-              <h1 className='text-[20] font-montserrat font-bold text-white uppercase'>Professional Ghostwriting Services</h1>
-              <h2 className='text-[50px] font-montserrat leading-tight capitalize font-semibold text-white mt-4'>Professional <span className='text-primary'>Ghostwriting Services</span> To Turn Your Ideas Into Narratives</h2>
-              <p className='text-[18px] font-comfortaa mt-4 text-white'>Writing a novel takes time, averaging around 475 hours. With our ghostwriting services, our team of expert writers takes on this big commitment, making it easier for you to share your story. They handle the tough parts with care, shaping your narrative to stay true to your voice.</p>
+              <h1 className='sm:text-[20px] text-[14px] font-montserrat font-bold text-white uppercase'>Professional Ghostwriting Services</h1>
+              <h2 className='2xl:text-[50px] xl:text-[43px] md:text-[35px] sm:text-[30px] text-[22px] font-montserrat leading-tight capitalize font-semibold text-white mt-4'>Professional <span className='text-primary'>Ghostwriting Services</span> To Turn Your Ideas Into Narratives</h2>
+              <p className='xl:text-[18px] lg:text-[16px] md:text-[15px] text-sm leading-normal font-comfortaa mt-4 text-white'>Writing a novel takes time, averaging around 475 hours. With our ghostwriting services, our team of expert writers takes on this big commitment, making it easier for you to share your story. They handle the tough parts with care, shaping your narrative to stay true to your voice.</p>
               <div className="flex gap-3 mt-5">
                 <CTA Primary={true} Href={"#"} Text={"Get A Free Quote"} />
                 <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
               </div>
             </div>
-            <div className='px-32 relative  pb-10 '>
-              <div className='bg-white py-10 rounded-b-xl'>
+            <div className='relative pb-10 max-w-[500px] mx-auto'>
+              <div className='bg-white py-10 px-3 lg:rounded-none lg:rounded-b-xl rounded-xl'>
                 <div className='flex  justify-center items-end content-center gap-3'>
                   <Image src={formIMG} width={60} height={60} alt='Ghostwriting Services' />
                   <div>
-                    <h3 className='text-secondary text-[13px] font-comfortaa leading-none'>Fill Out This Brief Form To Get Your</h3>
-                    <p className='text-secondary text-[23px] font-montserrat font-semibold leading-none'>Discount Reserved</p>
+                    <h3 className='text-secondary text-[13px] font-comfortaa leading-normal mb-1'>Fill Out This Brief Form To Get Your</h3>
+                    <p className='text-secondary sm:text-[23px] text-[20px] font-montserrat font-semibold leading-none'>Discount Reserved</p>
                   </div>
                 </div>
-                <div className='px-12 mt-10'>
+                <div className='sm:px-12 px-5 mt-10'>
                   <form action="" >
                     <div className='flex flex-col gap-3' >
                       <input type="text" className='bg-[#F3F3F3] font-comfortaa text-secondary pl-5 h-12 rounded-md' placeholder='Full Name' />

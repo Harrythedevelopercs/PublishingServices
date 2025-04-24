@@ -15,10 +15,10 @@ import { CTA } from '../..';
 export default function GSTensection() {
     return (
         <section>
-            <div className='py-[80px]'>
+            <div className='lg:py-[80px] py-[50px]'>
                 <div className='container'>
                     <div>
-                        <h2 className='text-center text-[60px] font-montserrat font-bold leading-tight'>Hire Our Expert <span className='text-primary'>Ghostwriters</span> To Create Stories Across All Genres</h2>
+                        <h2 className='text-center 2xl:text-[60px] xl:text-[50px] lg:text-[40px] md:text-[30px] text-[20px] font-montserrat font-bold leading-tight'>Hire Our Expert <span className='text-primary'>Ghostwriters</span> To Create Stories Across All Genres</h2>
                         <div className='flex flex-row gap-5 justify-center content-center mt-10 mx-auto max-w-[90%] flex-wrap'>
                             {
                                 [
@@ -68,11 +68,11 @@ export default function GSTensection() {
                         </div>
                     </div>
 
-                    <div className='mt-20'>
-                        <div className='grid grid-cols-2'>
+                    <div className='lg:mt-20 mt-10'>
+                        <div className='grid lg:grid-cols-2 grid-cols-1 gap-x-5 gap-y-8'>
                             <div className='flex flex-col justify-center'>
-                                <h2 className='text-secondary font-montserrat font-bold text-[40px]'>Action</h2>
-                                <p className='text-[16px] font-comfortaa mt-5'>Action books are perfect for readers who crave excitement and suspense. If you have a story in mind filled with daring adventures and thrilling challenges, our adept ghostwriters are here to help put it all together. We’ll work with you to create a gripping narrative that keeps readers hooked from start to finish.</p>
+                                <h2 className='text-secondary font-montserrat font-bold xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px]'>Action</h2>
+                                <p className='xl:text-[16px] md:text-[15px] text-sm leading-normal font-comfortaa mt-5'>Action books are perfect for readers who crave excitement and suspense. If you have a story in mind filled with daring adventures and thrilling challenges, our adept ghostwriters are here to help put it all together. We’ll work with you to create a gripping narrative that keeps readers hooked from start to finish.</p>
                                 <div className="flex gap-3 mt-5">
                                     <CTA Primary={true} Href={"#"} Text={"Get A Free Quote"} />
                                     <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />

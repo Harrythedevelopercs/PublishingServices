@@ -28,10 +28,10 @@ export default function Portfolio() {
         />
         <div className="container">
           <div>
-            <h2 className="font-montserrat text-[60px] font-bold leading-normal text-center">
+            <h2 className="font-montserrat xl:text-[60px] lg:text-[50px] md:text-[40px] sm:text-[30px] text-[25px] font-bold leading-normal text-center">
               Our Portfolio
             </h2>
-            <div className="grid grid-cols-4 gap-6 mt-8">
+            <div className="grid lg:grid-cols-4 grid-cols-2 gap-6 mt-8">
               {[
                 Portfolio1,
                 Portfolio2,

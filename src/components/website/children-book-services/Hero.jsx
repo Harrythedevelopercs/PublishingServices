@@ -1,13 +1,13 @@
-import Image from "next/image"
-import Banner from "media/children-book-services/banner.png"
-import CheckIcon from "media/children-book-illustrations/checkGreen.png"
-import HeroImage from "media/children-book-services/hero.png"
-import { CTA } from "../index"
-import BannerCarousel from "../HeroBanner/BannerCarousel"
+import Image from "next/image";
+import Banner from "media/children-book-services/banner.png";
+import CheckIcon from "media/children-book-illustrations/checkGreen.png";
+import HeroImage from "media/children-book-services/hero.png";
+import { CTA } from "../index";
+import BannerCarousel from "../HeroBanner/BannerCarousel";
 export default function Hero() {
   return (
     <section>
-      <div className="relative z-10 overflow-hidden pt-[105px] bg-[#1F182C]">
+      <div className="relative z-10 overflow-hidden md:pt-[105px] py-[60px] bg-[#1F182C]">
         <Image
           src={Banner}
           alt="banner"
@@ -17,15 +17,17 @@ export default function Hero() {
         />
         <div className="container">
           <div className="grid grid-cols-12 gap-x-5 gap-y-8 items-center">
-            <div className="col-span-7 text-white">
-              <h1 className="font-montserrat text-[40px] font-bold leading-normal mb-3">
-              Have A Story To Inspire Young Minds? 
+            <div className="lg:col-span-7 col-span-12 text-white max-w-[650px]">
+              <h1 className="font-montserrat xl:text-[40px] lg:text-[35px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal mb-3 ">
+                Have A Story To Inspire Young Minds?{" "}
                 <span className="text-primary">
-                Let Best Publishing Services Be Your Voice
+                  {" "}
+                  Let Best Publishing Services Be Your Voice
                 </span>
               </h1>
-              <p className="font-comfortaa text-[16px] font-medium leading-tight">
-              BPS’s creative children’s book authors provide a range of services from scratch to a finished product.
+              <p className="font-comfortaa xl:text-[16px] lg:text-[14px] text-[12px] font-medium leading-normal">
+                BPS’s creative children’s book authors provide a range of
+                services from scratch to a finished product.
               </p>
               <ul className="mt-8">
                 {[
@@ -35,7 +37,7 @@ export default function Hero() {
                 ].map((e, i) => (
                   <li
                     key={i}
-                    className="flex font-comfortaa text-base font-medium leading-normal items-center gap-x-2 mb-4"
+                    className="flex font-comfortaa xl:text-[16px] lg:text-[14px] text-[12px] font-medium leading-normal items-center gap-x-2 mb-4"
                   >
                     <Image src={CheckIcon} alt="icon" className="shrink-0" />
                     <span className="block">{e}</span>
@@ -53,7 +55,7 @@ export default function Hero() {
                 />
               </div>
             </div>
-            <div className="col-span-5">
+            <div className="lg:col-span-5 col-span-12">
               <Image
                 src={HeroImage}
                 alt="hero"
@@ -69,5 +71,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

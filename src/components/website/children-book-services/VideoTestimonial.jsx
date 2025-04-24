@@ -8,17 +8,17 @@ import PlayIcon from "media/children-book-services/play_icon.png"
 export default function VideoTestimonial() {
   return (
     <section>
-      <div className="relative z-10 overflow-hidden py-[80px]">
+      <div className="relative z-10 overflow-hidden lg:py-[80px] py-[40px]">
         <div className="container">
           <div className="text-center mb-[50px]">
-            <h2 className="text-[40px] leading-tight font-bold font-montserrat mb-3 max-w-[600px] mx-auto">
+            <h2 className="xl:text-[40px] lg:text-[35px] md:text-[30px] text-[20px] leading-tight font-bold font-montserrat mb-3 max-w-[600px] mx-auto">
             We Seem Too Good to Be True?
             </h2>
-            <p className="text-[16px] leading-normal font-medium font-comfortaa max-w-[800px] mx-auto mt-5">
+            <p className="lg:text-[16px] md:text-[15px] text-[14px] leading-normal font-medium font-comfortaa max-w-[800px] mx-auto mt-5">
             Hear from our client’s what they have to say for yourself!
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-x-5">
+          <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
             {[
               [
                 Review1,
@@ -70,10 +70,10 @@ export default function VideoTestimonial() {
                       </svg>
                     ))}
                   </div>
-                  <h3 className="text-[20px] leading-normal font-bold font-montserrat mt-3">
+                  <h3 className="xl:text-[20px] text-[18px] leading-normal font-bold font-montserrat mt-3">
                     {name}
                   </h3>
-                  <p className="text-[16px] leading-normal font-medium font-comfortaa mt-1">
+                  <p className="xl:text-[16px] lg:text-[15px] md:text-[14px] text-[13px] leading-normal font-medium font-comfortaa mt-1">
                     {review}
                   </p>
                 </div>

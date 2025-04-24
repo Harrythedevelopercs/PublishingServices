@@ -10,10 +10,10 @@ import Image from 'next/image'
 export default function TabSection() {
     return (
         <section className='bg-primary'>
-            <div className='py-[90px]'>
+            <div className='lg:py-[90px] py-[50px]'>
                 <div className='container '>
                     <h2 className='font-montserrat font-bold 2xl:text-[60px] xl:text-[50px] md:text-[40px] sm:text-[30px] text-[25px] text-white text-center leading-tight'>Turn Your Writing Dreams Into A <br /> Bestseller Reality</h2>
-                    <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-5 text-white text-center max-w-[70%] mx-auto'>Our team has experienced ghostwriters and editors who work nonstop to make sure your story is outstanding. We focus on every detail to help you become a very popular writer among your peers.</p>
+                    <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-5 text-white text-center lg:max-w-[70%] mx-auto'>Our team has experienced ghostwriters and editors who work nonstop to make sure your story is outstanding. We focus on every detail to help you become a very popular writer among your peers.</p>
                     <div className='mt-10'>
                         <Tabs defaultValue="Fiction" >
                             <TabsList className="flex lg:justify-center justify-start overflow-x-auto whitespace-nowrap text-nowrap md:gap-10 gap-5">

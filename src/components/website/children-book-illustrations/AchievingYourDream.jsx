@@ -10,15 +10,15 @@ export default function AchievingYourDream() {
     <section>
       <div className="relative z-10 overflow-hidden py-[40px]">
         <div className="container">
-          <div className="grid grid-cols-2 gap-x-5 items-center">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-5 items-center">
             <div className="max-w-[650px]">
-              <h2 className="font-montserrat text-[40px] font-bold leading-normal mb-3 max-w-[550px]">
+              <h2 className="font-montserrat xl:text-[40px] lg:text-[30px] md:text-[25px] text-[20px] font-bold leading-normal mb-3 max-w-[550px]">
               Can’t Seem to Get Your Book Together?
               </h2>
-              <p className="font-comfortaa text-base font-medium leading-normal">
+              <p className="font-comfortaa xl:text-base lg:text-[14px] text-[12px] font-medium leading-normal">
               Have an idea but can’t seem to execute it? Our experts know why.
               </p>
-              <ul className="mt-8 grid grid-cols-2 gap-5">
+              <ul className="mt-8 grid lg:grid-cols-2 grid-cols-1 gap-5">
                 {[
                   "Not enough time.",
                   "Stuck in the story.",
@@ -34,7 +34,7 @@ export default function AchievingYourDream() {
                 ].map((e, i) => (
                   <li
                     key={i}
-                    className="flex font-comfortaa text-base font-medium leading-normal items-center gap-x-2"
+                    className="flex font-comfortaa xl:text-base lg:text-[14px] text-[12px] font-medium leading-normal items-center gap-x-2"
                   >
                     <Image src={CheckIcon} alt="icon" className="shrink-0" />
                     <span className="block">{e}</span>
