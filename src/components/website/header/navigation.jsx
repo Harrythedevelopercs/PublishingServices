@@ -132,7 +132,7 @@ const Navigation = () => {
         <MobileNav />
       </div>
       <div className="md:flex md:justify-center hidden">
-        <CTA Text="Let's Talk" Primary={true} Href="tel:+13462992202" />
+        <CTA Text="Let's Talk" Primary={true} Href="tel:+13026653381" />
       </div>
     </nav>
   );
