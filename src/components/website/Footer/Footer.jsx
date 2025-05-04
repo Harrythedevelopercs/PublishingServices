@@ -64,7 +64,8 @@ export default function Footer() {
 
 
 
-                            2005 Eye St PMB #551, <br />Bakersfield, CA 93301
+                            200 Continental Drive
+Suite 401 <br />Newark, DE 19713
                         </p>
                     </div>
                     <hr />
