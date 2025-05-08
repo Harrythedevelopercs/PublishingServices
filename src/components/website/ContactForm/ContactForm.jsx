@@ -1,16 +1,16 @@
-"use client"
-import Image from "next/image"
-import CF from "media/contactForm.png"
-import CF2 from "media/contactForm2.png"
-import CF3 from "media/contactForm3.png"
-import { usePathname } from "next/navigation"
+"use client";
+import Image from "next/image";
+import CF from "media/contactForm.png";
+import CF2 from "media/contactForm2.png";
+import CF3 from "media/contactForm3.png";
+import { usePathname } from "next/navigation";
 // React Hook Form
-import { useForm } from "react-hook-form"
+import { useForm } from "react-hook-form";
 // React
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 // Zod
-import { z } from "zod"
-import { zodResolver } from "@hookform/resolvers/zod"
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
 // Shadcnui
 import {
   Form,
@@ -19,9 +19,9 @@ import {
   FormMessage,
   FormLabel,
   FormControl,
-} from "@/components/ui/form"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
+} from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 const formSchema = z.object({
   name: z.string().min(1, {
@@ -45,75 +45,74 @@ const formSchema = z.object({
       message: "phone number can only contain digits.",
     }),
   message: z.string(),
-})
+});
 export default function ContactForm({ label = false }) {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
-const [loading, setLoading] = useState(false)
-    const [url, setURL] = useState(false)
-    const form = useForm({
-        resolver: zodResolver(formSchema),
-        defaultValues: {
-            name: "",
-            phone: "",
-            email: "",
-            message: "",
-        },
-    })
-    const handleSubmit = async (values) => {
-        setLoading(true)
-        try {
-            let ip
-            try {
-                const ipResponse = await fetch("https://ipinfo.io/?token=9e980d0651edf4", {
-                    method: "GET",
-                });
-                if (!ipResponse.ok) {
-                    throw new Error(`Failed to fetch IP: ${ipResponse.status}`)
-                }
-                const ipData = await ipResponse.json()
-                ip = ipData?.ip
-            } catch (error) {
-                console.error("Error fetching IP:", error)
-                ip = '38.92.49.37'
-            }
-
-            const response = await fetch("api/leads/", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    "page_url": url,
-                    "user_ip": ip,
-                    "lead_data": values
-                })
-            })
-
-            if (!response.ok) {
-                const errorData = await response.text()
-                throw new Error(`HTTP error! Status: ${response.status}, Details: ${errorData}`)
-            }
-
-            window.location.href = "/"
-
-        } catch (error) {
-            console.error("Error:", error)
-        } finally {
-            setLoading(false)
+  const [loading, setLoading] = useState(false);
+  const [url, setURL] = useState(false);
+  const form = useForm({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      name: "",
+      phone: "",
+      email: "",
+      message: "",
+    },
+  });
+  const handleSubmit = async (values) => {
+    setLoading(true);
+    try {
+      let ip;
+      try {
+        const ipResponse = await fetch("https://ipinfo.io/?token=9e980d0651edf4", {
+          method: "GET",
+        });
+        if (!ipResponse.ok) {
+          throw new Error(`Failed to fetch IP: ${ipResponse.status}`);
         }
+        const ipData = await ipResponse.json();
+        ip = ipData?.ip;
+      } catch (error) {
+        console.error("Error fetching IP:", error);
+        ip = "38.92.49.37";
+      }
+
+      const response = await fetch("api/leads/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          page_url: url,
+          user_ip: ip,
+          lead_data: values,
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.text();
+        throw new Error(`HTTP error! Status: ${response.status}, Details: ${errorData}`);
+      }
+
+      window.location.href = "/";
+    } catch (error) {
+      console.error("Error:", error);
+    } finally {
+      setLoading(false);
     }
-    useEffect(() => {
-        setURL(window.location.href)
-    }, [setURL])
+  };
+  useEffect(() => {
+    setURL(window.location.href);
+  }, [setURL]);
 
   const images = {
     "/home": CF,
     "/book-promotion-services": CF2,
     "/children-book-services": CF3,
-  }
+  };
 
-  const selectedImage = images[pathname] || CF
+  const selectedImage = images[pathname] || CF;
 
   return (
     <section>
@@ -121,23 +120,18 @@ const [loading, setLoading] = useState(false)
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="hidden md:block">
-              <Image
-                src={selectedImage}
-                alt="Best Publishing Services"
-                className="mx-auto"
-              />
+              <Image src={selectedImage} alt="Best Publishing Services" className="mx-auto" />
             </div>
             <div className="flex flex-col justify-center ms-auto">
               <h4 className="text-black font-montserrat uppercase font-bold text-[14px] md:text-[13px] lg:text-[15px] xl:text-[20px] 2xl:text-[25px]">
-                Sign-Up for
+                Send an Email for
               </h4>
               <h4 className="text-primary font-montserrat uppercase font-bold text-[25px] md:text-[30px] lg:text-[40px] xl:text-[45px] 2xl:text-[50px]">
-                Free Quote
+                Consultation and Quote
               </h4>
               <p className="text-[13px] font-comfortaa">
-                Work directly with publishing’s most acclaimed and sought-after
-                professionals, <br className="hidden xl:block" /> including #1
-                New York Times-bestselling writers.
+                Need help publishing your book? Drop us a message to connect with our
+                representatives for free.
               </p>
               <Form {...form}>
                 <form
@@ -173,8 +167,7 @@ const [loading, setLoading] = useState(false)
                         <FormItem>
                           {label && (
                             <FormLabel>
-                              Email Address{" "}
-                              <span className="text-primary">*</span>
+                              Email Address <span className="text-primary">*</span>
                             </FormLabel>
                           )}
                           <FormControl>
@@ -195,8 +188,7 @@ const [loading, setLoading] = useState(false)
                         <FormItem>
                           {label && (
                             <FormLabel>
-                              Phone Number{" "}
-                              <span className="text-primary">*</span>
+                              Phone Number <span className="text-primary">*</span>
                             </FormLabel>
                           )}
                           <FormControl>
@@ -228,5 +220,5 @@ const [loading, setLoading] = useState(false)
         </div>
       </div>
     </section>
-  )
+  );
 }

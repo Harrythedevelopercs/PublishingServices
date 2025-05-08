@@ -15,9 +15,8 @@ export default function GSNinesection() {
                 Make Your Story Shine With The Expertise Of A Ghostwriter
               </h2>
               <p className="font-comfortaa xl:text-[16px] md:text-[15px] text-sm text-white mt-4">
-                Are you ready to write your book but need a little help? A
-                ghostwriter can help you compose a professionally written book
-                that stands out and gets noticed.
+                Are you ready to write your book but need a little help? A ghostwriter can help you
+                compose a professionally written book that stands out and gets noticed.
               </p>
               <div className="flex gap-3 mt-5">
                 <Link
@@ -29,7 +28,7 @@ export default function GSNinesection() {
                     Call Us Now
                   </span>
                 </Link>
-                <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
+                <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
               </div>
             </div>
             <div>

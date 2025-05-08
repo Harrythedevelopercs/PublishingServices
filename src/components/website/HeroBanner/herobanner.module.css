@@ -1,31 +1,30 @@
-.section{
-    @apply relative bg-transparent overflow-hidden
-    
+.section {
+  @apply relative bg-transparent overflow-hidden;
 }
 
-.sectionMainDiv{
-    @apply py-[90px] 
+.sectionMainDiv {
+  @apply py-[90px];
 }
 
-.Maincontainer{
-    @apply container
+.Maincontainer {
+  @apply container;
 }
 
-.container_grid{
-    @apply grid grid-cols-12 
+.container_grid {
+  @apply grid grid-cols-12;
 }
 
-.container_coloum{
-    @apply col-span-12 sm:col-span-8 md:col-span-6
+.container_coloum {
+  @apply col-span-12 sm:col-span-8 md:col-span-7;
 }
 
-.container_h1{
-    @apply text-[5.5dvh] sm:text-[35px] md:text-[45px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] font-montserrat font-bold capitalize text-white leading-[1.1]
+.container_h1 {
+  @apply text-[5.5dvh] sm:text-[35px] md:text-[45px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] font-montserrat font-bold capitalize text-white leading-[1.1];
 }
 
-.container_para{
-    @apply text-white font-comfortaa text-[18px] sm:text-[13px] md:text-[13px] lg:text-[15px] xl:text-[18px] 2xl:text-[20px] mt-5  font-bold sm:font-normal
+.container_para {
+  @apply text-white font-comfortaa text-[18px] sm:text-[13px] md:text-[13px] lg:text-[15px] xl:text-[18px] 2xl:text-[20px] mt-5  font-bold sm:font-normal;
 }
-.container_CTA{
-    @apply flex  gap-3 mt-5
+.container_CTA {
+  @apply flex  gap-3 mt-5;
 }
