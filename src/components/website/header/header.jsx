@@ -3,6 +3,8 @@
 import Link from "next/link"
 // Component
 import Navigation from "./navigation"
+import Image from "next/image"
+import Logo from "media/logobook.png"
 
 const Header = () => {
   return (
@@ -16,31 +18,7 @@ const Header = () => {
                 aria-label="Logo Links"
                 className="mx-auto w-[100px] h-auto"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="158"
-                  height="31"
-                  viewBox="0 0 158 31"
-                >
-                  <text
-                    fill="#2d2d2d"
-                    fontSize="25"
-                    fontFamily="Montserrat-Medium, Montserrat"
-                    fontWeight="500"
-                  >
-                    <tspan x="0" y="24">
-                      Books
-                    </tspan>
-                    <tspan
-                      y="24"
-                      fill="#58d639"
-                      fontFamily="Montserrat-Bold, Montserrat"
-                      fontWeight="700"
-                    >
-                      World
-                    </tspan>
-                  </text>
-                </svg>
+                <Image src={Logo} width={180} height={100}/>
               </Link>
             </div>
             <div className="lg:col-span-9 my-auto">
