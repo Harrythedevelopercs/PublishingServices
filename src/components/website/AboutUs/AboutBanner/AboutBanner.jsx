@@ -19,19 +19,16 @@ export default function AboutBanner() {
             <div className="grid md:grid-cols-2 mt-12">
               <div className="container">
                 <h1 className="text-[5.5dvh] sm:text-[35px] md:text-[45px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] font-montserrat font-bold capitalize text-secondary leading-[1.1]">
-                  About Us
+                  Who We Are – 
                 </h1>
                 <p className="text-secondary font-comfortaa text-[12px] sm:text-[13px] md:text-[13px] lg:text-[15px] xl:text-[18px] 2xl:text-[25px] mt-5  font-bold sm:font-normal">
-                  We empower authors through book writing, editing, and publishing navigation.
+                  A Premium Book Company for Aspiring Authors. We bring your story to life – professionally written, published, and distributed.
                 </p>
               </div>
 
               <div className="container md:mt-0">
                 <p className="text-secondary font-comfortaa text-[12px] sm:text-[13px] md:text-[13px] lg:text-[15px] xl:text-[18px] 2xl:text-[20px]  font-bold sm:font-normal">
-                  We empower authors through book writing, editing, and publishing navigation We
-                  empower authors through book writing, editing, and publishing navigation We
-                  empower authors through book writing, editing, and publishing navigationWe empower
-                  authors through book writing, editing
+                 As one of the leading publishing companies in the US, we provide professional services to turn your ideas into books. With over ten years of experience in ghostwriting, systematic book publishing assistance, and seamless author publishing across digital and print platforms like Amazon KDP, Apple Books, Ingram, and Barnes & Noble, your book is ready for success. Whether you're looking for a children's book company, expert book marketers, or a full-service premium book company, we ensure your story reaches the right audience.
                 </p>
               </div>
             </div>

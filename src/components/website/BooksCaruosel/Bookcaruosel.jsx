@@ -23,8 +23,7 @@ export default function Bookcaruosel() {
               At Best Publishing Services, one of the leading self-publishing companies, we help new
               writers gain international recognition through creative writing. Your book will be
               polished with professional book editing services, published by a trusted name in book
-              publishing, and ready for global platforms like Amazon KDP, Barnes & Noble, and
-              Ingram.
+              publishing, and ready for global platforms.
             </p>
           </div>
           <div className="overflow-hidden mt-16" ref={emblaRef}>

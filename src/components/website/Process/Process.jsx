@@ -20,10 +20,7 @@ export default function Process() {
               <span className="text-primary">Support</span>
             </h2>
             <p className="xs:text-[3.2dvw] sm:text-[12px] md:text-[13px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-comfortaa md:max-w-[700px] lg:max-w-[800px] xl:max-w-[850px] 2xl:max-w-[900px] mt-3 text-center mx-auto">
-              We provide professional ghost book writers, book editing services, proofreaders, and
-              designers with dedicated support to bring your book to life and ensure its
-              success—setting us apart among leading book publishing companies and self-publishing
-              companies.
+             We provide professional ghost book writers, book editing services, proofreaders, and designers with dedicated support to bring your book to life and ensure its success.
             </p>
           </div>
         </div>
@@ -42,8 +39,7 @@ export default function Process() {
                     1. Create
                   </h2>
                   <p className="sm:text-[10px] md:text-[11px] xl:text-[12px] 2xl:text-[13px] font-comfortaa font-bold mt-3">
-                    Collaborate with experienced writers and industry consultants to bring your book
-                    to life.
+                    Collaborate with experienced writers and industry consultants to bring your book to life.
                   </p>
                 </div>
                 <div className="h-[30px] md:h-[53px]"></div>
@@ -57,7 +53,7 @@ export default function Process() {
                     2. Refine
                   </h2>
                   <p className="sm:text-[10px] md:text-[11px] xl:text-[12px] 2xl:text-[13px] font-comfortaa font-bold mt-3">
-                    Professional editors proofread your manuscript to accuracy.
+                   Professional editors proofread your manuscript to accuracy.
                   </p>
                 </div>
               </div>
@@ -73,7 +69,7 @@ export default function Process() {
                     3. Design
                   </h2>
                   <p className=" sm:text-[10px] md:text-[11px] xl:text-[12px] 2xl:text-[13px] font-comfortaa font-bold mt-3">
-                    Our creative in-house designers create book layouts and covers that stand out.
+                   Our creative in-house designers create book layouts and covers that stand out.
                   </p>
                 </div>
                 <div className="h-[30px] md:h-[53px]"></div>
@@ -87,8 +83,7 @@ export default function Process() {
                     4. Support
                   </h2>
                   <p className="sm:text-[10px] md:text-[11px] xl:text-[12px] 2xl:text-[13px] font-comfortaa font-bold mt-3">
-                    Dedicated account managers guide you every step of the way through the
-                    publishing journey.
+                    Dedicated account managers guide you every step of the way through the publishing journey.
                   </p>
                 </div>
               </div>

@@ -43,9 +43,7 @@ export default function Testimonials() {
               What Our Clients Say
             </h2>
             <p className="xs:text-[3.2dvw] sm:text-[12px] md:text-[13px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-comfortaa md:max-w-[700px] lg:max-w-[800px] xl:max-w-[850px] 2xl:max-w-[900px] mt-3 text-center mx-auto">
-              At Best Publishing Services, we're committed to helping authors create and share their
-              stories with the world through expert ghostwriting, editing, and publishing. Here's
-              how our clients describe their experience:
+              At Best Publishing Services, we're committed to helping authors create and share their stories with the world through expert ghostwriting, editing, and publishing. Here's how our clients describe their experience:
             </p>
           </div>
         </div>
@@ -71,16 +69,6 @@ export default function Testimonials() {
                 Author="— Rachel M., Mystery Author"
                 ImageSrc={T1}
                 Comment="Working with Best Publishing Services was a game-changer. They took my rough draft and turned it into a polished book ready for publishing. The team guided me every step of the way, and my book was live on Amazon KDP faster than I expected!"
-              />
-              <TestimonialsItem
-                Author="— David H., Memoir Author"
-                ImageSrc={T1}
-                Comment="I couldn't finish my book on my own, but the ghostwriting team at BPS made my dream a reality. They really understood my vision, and now my memoir is available for readers worldwide on Apple Books."
-              />
-              <TestimonialsItem
-                Author="— Olivia J., Historical Fiction Author"
-                ImageSrc={T1}
-                Comment="The entire experience has been commendable. They refined my manuscript and gave it colors with their impeccable cover design. The formatting process was a breeze. Best Publishing Services helped me launch my book on multiple platforms, including Kobo and Barnes & Noble."
               />
             </div>
           </div>

@@ -8,17 +8,17 @@ export default function ServicesDescription() {
                 <div className='container'>
                     <div className='grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8'>
                         <div>
-                            <h2 className='font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px]  font-bold text-secondary leading-tight'>Premium <span className='text-primary'>Ghostwriting Services</span> Tailored To Your Needs</h2>
-                            <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4'>Are you looking for professional ghostwriting services to help share your story? Our ghostwriting company is here to make it happen. We have a team of the best ghostwriters for hire who excel at crafting everything from detailed narratives to tales of adventure or stories of struggle and success. We’ll help give your story the voice it deserves—one that inspires and resonates with your audience.</p>
+                            <h2 className='font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px]  font-bold text-secondary leading-tight'>Professional <span className='text-primary'> Ghostwriting Services</span> To Bring Your Words to Life</h2>
+                            <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4'>At Best Publishing Services, our accredited editors and professional ghostwriters have perfected their recipes to bring their expertise curated to your vision and requirements. Whether you are on a budget and looking for affordable book writing services or want premium book writers, we've got you covered.  </p>
                             <ul className='mt-4 list-none grid grid-cols-2'>
                                 {
                                     [
+                                        "Customized Manuscript Development",
+                                        "Comprehensive Editing and Proofreading",
                                         "Ghostwriting",
-                                        "eBook Writing",
-                                        "Book Editing",
-                                        "Book Formatting",
-                                        "Book Marketing",
-                                        "Book Cover Designs "
+                                        "Full-Service Publishing Assistance",
+                                        "Book Writing",
+                                        "Book Marketing and Promotion",
                                     ].map((element, key) => (
                                         <li key={key} className='flex gap-5 content-center items-center xl:text-[16px] md:text-[15px] text-sm py-[8px]'>
                                             <span>

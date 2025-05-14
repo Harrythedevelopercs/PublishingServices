@@ -16,18 +16,14 @@ export default function HeroBannerGhost() {
                 Professional Ghostwriting Services
               </h1>
               <h2 className="2xl:text-[50px] xl:text-[43px] md:text-[35px] sm:text-[30px] text-[22px] font-montserrat leading-tight capitalize font-semibold text-white mt-4">
-                Professional <span className="text-primary">Ghostwriting Services</span> To Turn
-                Your Ideas Into Narratives
+                Your All-in-One  <span className="text-primary">Best Online Ghostwriting </span>Services
               </h2>
               <p className="xl:text-[18px] lg:text-[16px] md:text-[15px] text-sm leading-normal font-comfortaa mt-4 text-white">
-                Writing a novel takes time, averaging around 475 hours. With our ghostwriting
-                services, our team of expert writers takes on this big commitment, making it easier
-                for you to share your story. They handle the tough parts with care, shaping your
-                narrative to stay true to your voice.
+               Cut to the chase of your search for the professional ghostwriting services with Best Publishing Services. We are the single ghostwriting company to cover all your needs. Whether you're looking to hire ghostwriter talent for children's book writing or biography writing services, , your author's journey starts with us. We offer complete book ghostwriting services.
               </p>
               <div className="flex gap-3 mt-5">
-                <CTA Primary={true} Href={"#"} Text={"Get A Free Quote"} />
-                <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
+                <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
               </div>
             </div>
             <div className="relative pb-10 max-w-[500px] mx-auto">
