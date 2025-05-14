@@ -10,16 +10,16 @@ export default function GSfivesection() {
                         <div className='grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8'>
                             <Image src={GSB2} alt='BPS'  className='lg:w-[80%] mx-auto'/>
                             <div className='flex flex-col justify-center'>
-                                <h2 className='font-montserrat xl:text-[45px] md:text-[30px] sm:text-[25px] text-[20px]  font-bold text-secondary leading-tight'>Create Extraordinary Works With The Best <span className='text-primary'>Ghostwriters For Hire</span></h2>
-                                <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4'>Ghostwriting is about helping an author articulate their thoughts, stories, and ideas in the most valuable manner. Here are some of the qualities the best ghostwriter for hire entails:
+                                <h2 className='font-montserrat xl:text-[45px] md:text-[30px] sm:text-[25px] text-[20px]  font-bold text-secondary leading-tight'>Get the Best of <span className='text-primary'>Ghostwriters</span> in the Industry Without </h2>
+                                <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4'>Finding the best ghostwriters for hire can be tricky. But with our compliance checklist below, you can be assured that our team is truly the best. Why? Because:
                                 </p>
                                 <ul className='mt-4 list-none'>
                                     {
                                         [
-                                            "Listen carefully and understand the author’s voice.",
-                                            "Turns the author’s thoughts into exceptional content that truly represents the author.",
-                                            "The author’s message is conveyed clearly, even if they are using memoir ghostwriting services, composing a professional guide, or working on any other creative project.",
-                                            "Helps authors share their stories with the world in a natural, authentic, and influential way."
+                                            "We listen before we start your project—ensuring we understand your needs and vision.",
+                                            "We are meticulous and have a keen eye for detail, delivering professional ghostwriting services that exceed expectations.",
+                                            "Because we listen to your needs, we transliterate your words into a manuscript that perfectly represents your voice through our book ghostwriting services.",
+                                            "We write books that reach and are heard by an international audience with our exceptional book promotion and marketing packages.",
                                         ].map((element, key) => (
                                             <li key={key} className='flex gap-3 content-center items-center xl:text-[16px] md:text-[15px] text-sm py-[4px]'>
                                                 <span>

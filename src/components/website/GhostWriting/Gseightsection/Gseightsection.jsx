@@ -17,17 +17,10 @@ export default function Gseightsection() {
             </div>
             <div className="flex flex-col justify-center">
               <h2 className="text-secondary xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-montserrat font-bold leading-tight">
-                The Benefits Of Choosing Our Cost-Effective{" "}
-                <span className="text-primary">Ghost Writing Services</span>
+                <span className="text-primary">Best Ghostwriting Services</span> That Don't Burn a Hole in Your Pocket
               </h2>
               <p className="font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-5">
-                We at Writers of USA offer everything you need, including
-                ghostwriting, editing, and publishing help. We can also help you
-                if you’re stuck on your story or just need to correct your
-                manuscript. Our goal is to provide great service and
-                high-quality work. As a top ghostwriting company, we’ll help
-                turn your manuscript into something readers will absolutely
-                love.
+                Stuck on your story? Need a fresh set of eyes on your manuscript? We've got you covered! At Best Publishing Services, we offer ghostwriting, editing, and publishing—all within your budget. Now, you can get the professional writing services your book deserves with our decade's worth of experience.
               </p>
             </div>
           </div>
@@ -37,22 +30,22 @@ export default function Gseightsection() {
                 {
                   icon: ribbion,
                   title: "Quality Work",
-                  desc: "We’re committed to providing top-quality work every time. Our best ghostwriters for hire put their expertise into creating the perfect strategy for each project, ensuring your story is told exactly how you dream of it.",
+                  desc: "Concerned about receiving a manuscript with typos or layout errors? We guarantee exceptional quality. Your book will be thoroughly polished and reviewed before it reaches you. It's only published once it passes our QA process and receives your final approval—hallmarks of a trusted book editing company.",
                 },
                 {
                   icon: ontime,
                   title: "Timely Delivery",
-                  desc: "We’re committed to providing top-quality work every time. Our best ghostwriters for hire put their expertise into creating the perfect strategy for each project, ensuring your story is told exactly how you dream of it.",
+                  desc: "At Best Publishing Services, you can continue focusing on your daily routine while our skilled professional ghostwriters and editors ensure your book is completed on time, published, and printed—adhering to your deadline, as tight as it may be.",
                 },
                 {
                   icon: rate,
                   title: "Customer Satisfaction",
-                  desc: "We’re committed to providing top-quality work every time. Our best ghostwriters for hire put their expertise into creating the perfect strategy for each project, ensuring your story is told exactly how you dream of it.",
+                  desc: "While many experts struggle to maintain coherence across genres, our dedicated ghost book writers specialize in giving each project the attention it deserves. We focus on one project at a time, ensuring your book reflects your vision with precision and care.",
                 },
                 {
                   icon: key1,
                   title: "100% Ownership",
-                  desc: "We’re committed to providing top-quality work every time. Our best ghostwriters for hire put their expertise into creating the perfect strategy for each project, ensuring your story is told exactly how you dream of it.",
+                  desc: "With an industry-standard NDA, we respect your ownership of the work. Our role is to be the 'ghost' in your authorship journey, allowing you to maintain full creative control and rights to your book—ideal for anyone seeking to hire a ghostwriter they can truly trust.",
                 },
               ].map(({ icon, title, desc }, i) => (
                 <div

@@ -19,8 +19,8 @@ export default function GSTensection() {
         <div className="container">
           <div>
             <h2 className="text-center 2xl:text-[60px] xl:text-[50px] lg:text-[40px] md:text-[30px] text-[20px] font-montserrat font-bold leading-tight">
-              Hire Our Expert <span className="text-primary">Ghostwriters</span> To Create Stories
-              Across All Genres
+              Experienced <span className="text-primary">Ghostwriting Services </span> Across All Genres
+              
             </h2>
             <div className="flex flex-row gap-5 justify-center content-center mt-10 mx-auto max-w-[90%] flex-wrap">
               {[
@@ -30,35 +30,35 @@ export default function GSTensection() {
                 },
                 {
                   Icon: Children,
-                  Title: "Children",
-                },
-                {
-                  Icon: Fantasy,
-                  Title: "Fantasy",
+                  Title: "Supernatural",
                 },
                 {
                   Icon: History,
-                  Title: "History",
+                  Title: "Children's book",
                 },
                 {
-                  Icon: Suspense,
-                  Title: "Suspense",
-                },
-                {
-                  Icon: Drama,
+                  Icon: Fantasy,
                   Title: "Drama",
                 },
                 {
+                  Icon: Romantic,
+                  Title: "Fantasy",
+                },
+                {
+                  Icon: Drama,
+                  Title: "Romance",
+                },
+                {
                   Icon: Novel,
-                  Title: "Novel",
+                  Title: "History",
                 },
                 {
                   Icon: Fiction,
-                  Title: "Fiction",
+                  Title: "Non-fiction",
                 },
                 {
-                  Icon: Romantic,
-                  Title: "Romantic",
+                  Icon: Suspense,
+                  Title: "Thriller",
                 },
               ].map(({ Icon, Title }, i) => (
                 <div
@@ -82,17 +82,14 @@ export default function GSTensection() {
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-5 gap-y-8">
               <div className="flex flex-col justify-center">
                 <h2 className="text-secondary font-montserrat font-bold xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px]">
-                  Action
+                  Ghostwriting, Editing, Action!
                 </h2>
                 <p className="xl:text-[16px] md:text-[15px] text-sm leading-normal font-comfortaa mt-5">
-                  Action books are perfect for readers who crave excitement and suspense. If you
-                  have a story in mind filled with daring adventures and thrilling challenges, our
-                  adept ghostwriters are here to help put it all together. We’ll work with you to
-                  create a gripping narrative that keeps readers hooked from start to finish.
+                  Explosions, Twists, and High-Speed Chases—We've Got You! Writing an action-packed thriller novel isn't everybody's cup of tea. You need someone who loves action and has a passion for bringing your idea to life on Amazon Books USA, Ingram, Barnes and Noble, and more. That's where we come in! At Best Publishing Services, our action-loving book ghost writers live for the thrill—bringing your high-octane story to life so your book turns into a blockbuster. 
                 </p>
                 <div className="flex gap-3 mt-5">
-                  <CTA Primary={true} Href={"#"} Text={"Get A Free Quote"} />
-                  <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                  <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
+                  <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
                 </div>
               </div>
               <div>

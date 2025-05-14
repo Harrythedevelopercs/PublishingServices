@@ -12,11 +12,10 @@ export default function GSNinesection() {
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-5 gap-y-8">
             <div className="flex flex-col justify-center">
               <h2 className="font-montserrat font-bold xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] text-white leading-tight">
-                Make Your Story Shine With The Expertise Of A Ghostwriter
+               Need a Set of Words to Ghostwrite Your Story in a Budget? 
               </h2>
               <p className="font-comfortaa xl:text-[16px] md:text-[15px] text-sm text-white mt-4">
-                Are you ready to write your book but need a little help? A ghostwriter can help you
-                compose a professionally written book that stands out and gets noticed.
+                Got a killer idea but need the right words? Best Publishing Services has your back! From memoirs to mysteries, children's book writing to sci-fi, our expert writers turn your vision into a masterpiece—without losing your unique flair. Whether you're looking to hire a ghostwriter or need complete book ghostwriting services, we're here to help!
               </p>
               <div className="flex gap-3 mt-5">
                 <Link
@@ -25,10 +24,10 @@ export default function GSNinesection() {
                 >
                   <span className="absolute inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-secondary "></span>
                   <span className="relative w-full text-left text-primary transition-colors duration-200 ease-in-out group-hover:text-white">
-                    Call Us Now
+                    Click for a Free Quote 
                   </span>
                 </Link>
-                <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
               </div>
             </div>
             <div>

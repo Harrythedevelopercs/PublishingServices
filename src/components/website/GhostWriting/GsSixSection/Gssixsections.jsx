@@ -12,16 +12,11 @@ export default function Gssixsections() {
         <div className="container ">
           <div className="mt-3 ">
             <h2 className="font-montserrat font-bold  text-center 2xl:text-[60px] xl:text-[50px] md:text-[30px] sm:text-[25px] text-[20px]  leading-tight">
-              <span className="text-primary">Experience</span> The Full Value Of
-              A <span className="text-primary">Skilled Ghostwriting</span>{" "}
-              Company
+              Unleash Your Story with Our {" "}
+              <span className="text-primary">Professional Ghostwriters</span>!
             </h2>
             <p className="xs:text-[3.2dvw] sm:text-[12px] md:text-[13px] lg:text-[16px] xl:text-[18px] 2xl:text-[16px] font-comfortaa lg:max-w-[75%] mt-3 text-center mx-auto">
-              Ghostwriting services are a powerful way to convert your ideas
-              into a professional book. Our best ghostwriters for hire help you
-              with your dream of sharing your story, creating a memoir, or
-              publishing a thought-provoking novel. Here’s why these services
-              are a game-changer for anyone ready to tell their story.
+              Whether you're looking to create a heartfelt memoir, a self-help book that truly guides, a vivid children's book with rich illustrations, a business book to influence, or a fiction book to indulge in, we've got your back. Here's a quick overview of why we're the best ghostwriting services to provide you with all of your book writing and publishing needs:
             </p>
           </div>
         </div>
@@ -31,45 +26,46 @@ export default function Gssixsections() {
             <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
               {[
                 {
-                  title: "Your Gateway To Professional Storytelling",
+                  title: "Your Gateway to Storytelling Magic",
                   description:
-                    "A skilled ghostwriter transforms your thoughts, experiences, or concepts into an enthralling manuscript. They write your story with precision, making sure it connects with readers while staying true to your voice and message.",
+                    "A skilled professional ghostwriter takes your thoughts, experiences, or ideas and turns them into an engaging manuscript that speaks to readers while keeping your unique voice intact.",
                 },
                 {
-                  title: "Save Time & Energy",
+                  title: "Masters of Every Genre",
                   description:
-                    "A skilled ghostwriter transforms your thoughts, experiences, or concepts into an enthralling manuscript. They write your story with precision, making sure it connects with readers while staying true to your voice and message.",
+                    "While most experts can barely string a sentence together, our ghostwriters are genre-jumping pros, giving your book the full attention it deserves—one project at a time!",
                 },
                 {
-                  title: "Expertise Across Genres",
+                  title: "Flawless Final Product",
                   description:
-                    "A skilled ghostwriter transforms your thoughts, experiences, or concepts into an enthralling manuscript. They write your story with precision, making sure it connects with readers while staying true to your voice and message.",
+                    "No more typos or layout disasters! We ensure your manuscript is polished to perfection before you even see it, so your book is ready for publishing once it passes our top-notch QA and your stamp of approval.",
                 },
                 {
-                  title: "Collaborative Process",
+                  title: "Ideal for Busy Bees",
                   description:
-                    "A skilled ghostwriter transforms your thoughts, experiences, or concepts into an enthralling manuscript. They write your story with precision, making sure it connects with readers while staying true to your voice and message.",
+                    "Do you have a packed schedule? No problem! You can stay on top of your book's progress with custom weekly updates while we handle the heavy lifting—no burnout necessary.",
                 },
                 {
-                  title: "High-Quality Results",
+                  title: "Time-Saving, Energy-Saving",
                   description:
-                    "A skilled ghostwriter transforms your thoughts, experiences, or concepts into an enthralling manuscript. They write your story with precision, making sure it connects with readers while staying true to your voice and message.",
+                    "Worried you don't have the time to make your book a reality? With Best Publishing Services, you keep doing what you do best while we focus on turning your dream into a book through our book ghostwriting services.",
                 },
                 {
-                  title: "Maintain Ownership",
+                  title: "Collaboration, Done Right",
                   description:
-                    "A skilled ghostwriter transforms your thoughts, experiences, or concepts into an enthralling manuscript. They write your story with precision, making sure it connects with readers while staying true to your voice and message.",
+                    "Our team works seamlessly together—your manuscript, cover design, and promotional materials will all be ready for launch at the same time for smooth book marketing.",
                 },
                 {
-                  title: "Perfect For Busy Professionals",
+                  title: "You're the Boss, Always",
                   description:
-                    "A skilled ghostwriter transforms your thoughts, experiences, or concepts into an enthralling manuscript. They write your story with precision, making sure it connects with readers while staying true to your voice and message.",
+                    "We respect your ownership—with an industry-standard NDA, we stay true to our ghostwriting company role and leave you to shine as the author.",
                 },
                 {
-                  title: "Reach Your Audience Faster",
+                  title: "Speedy Audience Reach",
                   description:
-                    "A skilled ghostwriter transforms your thoughts, experiences, or concepts into an enthralling manuscript. They write your story with precision, making sure it connects with readers while staying true to your voice and message.",
+                    "With our dedicated team and collaborative approach, your book will get into readers' hands quickly, with all promotional materials lined up for a seamless marketing experience right after publishing.",
                 },
+                
               ].map(({ title, description }, i) => (
                 <div
                   key={i}

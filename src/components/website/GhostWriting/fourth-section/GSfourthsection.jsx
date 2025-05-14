@@ -11,19 +11,14 @@ export default function GSfourthsection() {
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8">
             <div className="flex justify-center flex-col">
               <h2 className="font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold text-secondary leading-tight">
-                Personalized <span className="text-primary">Ghostwriting Services</span> To Match
-                Your Style
+                Looking for a  <span className="text-primary">Professional Ghostwriter </span> Who Gets You?
               </h2>
               <p className="font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4">
-                Are you looking for professional ghostwriting services to help share your story? Our
-                ghostwriting company is here to make it happen. We have a team of the best
-                ghostwriters for hire who excel at crafting everything from detailed narratives to
-                tales of adventure or stories of struggle and success. We’ll help give your story
-                the voice it deserves—one that inspires and resonates with your audience.
+                At Best Publishing Services,our team of chameleon-like ghost book writers and editors can slip into any tone or genre—whether it's memoirs, kids' books, mystery, fantasy, sci-fi, or scripts! We're here to bring your story to life exactly how you imagine it. You can pick someone who's a better fit to have your dream team. We're all about making sure you're 100% happy with the results—because that's what the best ghostwriting services are all about.
               </p>
               <div className="flex gap-3 mt-5">
-                <CTA Primary={true} Href={"#"} Text={"Get A Free Quote"} />
-                <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
+                <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
               </div>
             </div>
             <div className="relative">

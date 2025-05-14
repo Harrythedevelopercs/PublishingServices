@@ -18,7 +18,7 @@ const Header = () => {
                 aria-label="Logo Links"
                 className="mx-auto w-[100px] h-auto"
               >
-                <Image src={Logo} width={180} height={100}/>
+                <Image src={Logo} width={180} height={100} alt="Book Publishing Service"/>
               </Link>
             </div>
             <div className="lg:col-span-9 my-auto">

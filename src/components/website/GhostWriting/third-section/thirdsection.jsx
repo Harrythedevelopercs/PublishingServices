@@ -12,13 +12,11 @@ export default function GSthirdsection() {
                             <Image src={GS} alt='BSP' className='lg:w-[65%] mx-auto' />
                         </div>
                         <div>
-                            <h2 className='font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold text-secondary leading-tight'>Why We're the Rockstars of Book Publishing</h2>
+                            <h2 className='font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold text-secondary leading-tight'>Why We're the Rockstars of <span className="text-primary">Book Publishing</span> </h2>
                             <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4'>
-                                When it comes to transforming your book from an idea to a bestseller, we're the pros who make it happen. Best Publishing Services—a leading book publishing company and book writing company—combines creativity and expertise to ensure your words transform into a masterpiece. Whether you are a seasoned author tight on deadlines, facing writer's block, or need assistance navigating the digital publication world, we strive to make your writing journey a breeze.
+                               When it comes to transforming your book from an idea to a bestseller, we're the pros who make it happen. Best Publishing Services—a leading book publishing company and book writing company—combines creativity and expertise to ensure your words transform into a masterpiece. Whether you are a seasoned author tight on deadlines, facing writer's block, or need assistance navigating the digital publication world, we strive to make your writing journey a breeze.
                             </p>
-                            <p className='font-comfortaa xl:text-[16px] md:text-[15px] text-sm mt-4'>
-                                Our best ghostwriters for hire match the author’s voice, tone, and style so perfectly that it feels natural. They don’t only write, but they also make sure the story stays authentic to the author. Our ghost writing services stand out for a reason, and here’s what makes our team one of the most sought-after in the industry:
-                            </p>
+                           
                             <ul className='mt-4 list-none '>
                                 {
                                     [
