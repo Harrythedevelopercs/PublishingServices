@@ -108,13 +108,13 @@ export default function TimelessStories({ label = false }) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-8 items-center">
             <div className="max-w-[600px]">
               <h2 className="font-montserrat 2xl:text-[40px] xl:text-[35px] lg:text-[30px] md:text-[25px] text-[20px] font-bold leading-tight mb-3">
-                Bring Magical Kids’ Stories to Life with Best Publishing Services
+                Bring Magical Kids’ Stories to Life with <span className="text-primary">Best Publishing Services</span>
               </h2>
               <p className="xl:text-[16px] lg:text-[14px] text-[12px] font-comfortaa font-medium leading-normal mb-5">
-                Dreaming of writing a children’s book that young readers will love? At Best Publishing Services (BPS), we’re here to help you turn your ideas into magical, unforgettable stories. Whether you’re writing for toddlers, early readers, or middle-grade adventurers, our team knows how to form stories that inspire imagination and enchant hearts. With our full range of children’s book publishing services, you’ll get expert support at every step. From plot development and character creation to publishing, we ensure your book looks and reads like a true classic. But we don’t stop there. Our marketing and distribution services help your book find its way into the hands of eager readers—both online and in stores. With BPS by your side, you can publish with confidence and pride.
+                Dreaming of writing a children's book that young readers will love? Whether you're writing for toddlers, early readers, or middle-grade adventurers, our team knows how to form stories that inspire imagination and enchant hearts. With our full range of affordable children's book publishing services, you'll get expert support at every step.
               </p>
               <p className="xl:text-[16px] lg:text-[14px] text-[12px] font-comfortaa font-medium leading-normal">
-                Let’s create a story that children will treasure for years to come. Join BPS and bring your children’s book dream to life!
+                But we don't stop there. Our children's book promotion, children's audiobook stories, and children's book illustration services help your book find its way into the hands of eager readers—both online and in stores. Let's create a story that children will treasure for years to come. Join BPS and bring your children's non-fiction writing dream to life. 
               </p>
               <div className="flex items-center gap-x-3 mt-8">
                 <CTA Primary={true} Href="#" Text="Get A Free Quote" />

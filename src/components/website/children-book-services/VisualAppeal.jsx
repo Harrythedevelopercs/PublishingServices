@@ -15,8 +15,7 @@ export default function VisualAppeal() {
         <div className="container">
           <div className="text-center max-w-[1200px] mx-auto mb-[50px]">
             <h2 className="2xl:text-[60px] xl:text-[50px] lg:text-[40px] md:text-[30px] text-[20px] leading-tight font-bold font-montserrat">
-              Bring Your Story to Life with Stunning Children’s Book
-              Illustrations
+              Bring Your Story to Life with <span className="text-primary">Children's Book Illustration </span> Services
             </h2>
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-8 items-center gap-x-8">
@@ -24,15 +23,15 @@ export default function VisualAppeal() {
               {[
                 [
                   "Book Cover Design",
-                  "Make a powerful first impression with a beautifully designed cover that stands out on any shelf or screen.",
+                  "Make a powerful first impression with a cover perfect for children's book publishing.",
                 ],
                 [
                   "Children’s Book Illustrations",
-                  "Spark imagination and joy with colorful, age-appropriate artwork that complements your story and delights young readers.",
+                  "Spark imagination with colorful artwork ideal for children's non-fiction writing.",
                 ],
                 [
                   "Custom Illustration Services",
-                  "Turn your vision into vivid, professional illustrations—tailored to your book’s tone, style, and target audience.",
+                  "Turn your vision into vivid, professional children's book illustration services.",
                 ],
               ].map(([title, description], i) => (
                 <div
@@ -69,8 +68,8 @@ export default function VisualAppeal() {
             </div>
           </div>
           <div className="text-center md:mt-[60px] mt-[40px]">
-            <span className="block lg:text-[26px] md:text-[20px] text-[18px] font-montserrat leading-tight font-bold mb-2">
-              Want to create a children’s book that stands out?
+            <span className="block lg:text-[26px] md:text-[20px] text-[18px] font-montserrat leading-tight font-bold mb-2 text-primary">
+              Looking for affordable children's book publishing? 
             </span>
             <h3 className="lg:text-[37px] md:text-[27px] text-[20px] font-montserrat leading-tight font-bold mb-3">
               Let BPS help you make it magical from start to finish!

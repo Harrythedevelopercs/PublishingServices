@@ -19,6 +19,7 @@ export default function Hero() {
           <div className="grid grid-cols-12 gap-x-5 gap-y-8 items-center">
             <div className="lg:col-span-7 col-span-12 text-white max-w-[650px]">
               <h1 className="font-montserrat xl:text-[40px] lg:text-[35px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal mb-3 ">
+                
                 Have A Story To Inspire Young Minds?{" "}
                 <span className="text-primary">
                   {" "}
@@ -26,12 +27,11 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="font-comfortaa xl:text-[16px] lg:text-[14px] text-[12px] font-medium leading-normal">
-                BPS’s creative children’s book authors provide a range of
-                services from scratch to a finished product.
+               Whether you're seeking affordable children's book publishing, children audiobook stories, or expert support in childhood stories book publishing, we've got you covered. BSP's creative children's book publishing provides a range of services. 
               </p>
               <ul className="mt-8">
                 {[
-                  "Children’s Book Services Tailored To Your Needs",
+                  "Children's Non-Fiction Writing And Children's Book Illustration Services Tailored To Your Needs",
                   "Interactive and Fun Writing Styles",
                   "Limitless Revisions",
                 ].map((e, i) => (

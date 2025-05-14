@@ -7,44 +7,44 @@ import {
 export default function FAQs() {
   const data = [
     [
-      "Which services are provided by Best Publishing Services? ",
-      "We offer complete book publishing services, which include formatting, publishing, marketing, book editing, proofreading, and ghostwriting. We also provide book cover design, author website creation, and audiobook narration. ",
+      "Which services are provided by Best Publishing Services?",
+      "We offer complete book publishing services, including formatting, publishing, marketing, book editing, proofreading, and ghostwriting. We also provide book cover design, author website creation, and audiobook narration.",
     ],
     [
       "After my book is released, do I still hold the rights to it?",
-      "Yes, you still own your book in its whole. We guarantee that all rights belong to you and preserve your creative integrity.",
+      "Yes, you still own your book in its entirety. We guarantee that all rights belong to you and preserve your creative integrity.",
     ],
     [
-      "Can Best Publishing Services aid book promotion? ",
-      "Of course! To increase sales and awareness, we provide book marketing services. We employ internet advertising, SEO optimization, and social media marketing to reach your target audience efficiently.",
+      "Can Best Publishing Services aid book promotion?",
+      "Of course! To increase sales and awareness, we provide children's book promotion and general book marketing services. We employ internet advertising, SEO optimization, and social media marketing to reach your target audience efficiently.",
     ],
     [
-      "What steps are involved in the ghostwriting process? ",
-      "Your idea or outline serves as the starting point for our ghostwriting procedure. After that, we work together to create drafts, making sure your ideas and voice are heard. After everything is finished, we format, edit, and get the book ready for release.",
+      "What steps are involved in the ghostwriting process?",
+      "Your idea or outline serves as the starting point for our ghostwriting process. We work together to create drafts, ensuring your ideas and voice are captured. After everything is finished, we format, edit, and prepare your book for release.",
     ],
     [
       "Are editing and proofreading services something you provide?",
-      "Indeed, we offer thorough editing and proofreading services, including line and structural edits and final proofing, to guarantee your work is flawless and prepared for publication. ",
+      "Indeed, we offer comprehensive book editing and proofreading services, including line and structural edits and final proofing, to ensure your work is flawless and ready for publication.",
     ],
     [
-      "Which genres are you an expert in? ",
-      "We write in every genre, including children’s novels, mystery, fantasy, sci-fi, horror, autobiographies, and non-fiction. Our authors customize the text to fit your criteria and personality.",
+      "Which genres are you an expert in?",
+      "We specialize in all genres, including children's book publishing, children's non-fiction writing, mystery, fantasy, sci-fi, autobiographies, and more. Our writers customize the text to fit your criteria and audience.",
     ],
     [
-      "Is it possible to design a unique book cover? ",
-      "Yes, our design team produces visually appealing book covers specific to your work’s genre and concept. To draw in readers, we emphasize aesthetic appeal and meticulous detail. ",
+      "Is it possible to design a unique book cover?",
+      "Yes, our design team produces visually appealing children's book illustrations and book covers tailored to your book's genre and theme. We emphasize aesthetic appeal and attention to detail.",
     ],
     [
-      "What happens if I change my manuscript while it’s being processed?",
-      "We provide edits at every stage to ensure your manuscript meets your standards. Our primary objective is for you to be happy.",
+      "What happens if I change my manuscript while it's being processed?",
+      "We provide edits at every stage to ensure your manuscript meets your expectations. Our goal is to make sure you're satisfied with the final product.",
     ],
     [
-      "How much time does Best Publishing Services take to print a book? ",
-      "The services needed determine the timeline. Publication often takes a few weeks to a few months. To meet deadlines, we collaborate closely with you. ",
+      "How much time does Best Publishing Services take to print a book?",
+      "The timeline depends on the services required. Children's book publishing typically takes a few weeks to a few months. We work closely with you to meet deadlines.",
     ],
     [
       "Do you provide authors with website design services?",
-      "Yes, we create author websites optimized for search engines to promote your books, engage readers, and improve your online visibility.",
+      "Yes, we create author websites optimized for search engines to promote your books, engage readers, and boost your online presence.",
     ],
   ]
   return (

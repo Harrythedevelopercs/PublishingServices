@@ -4,19 +4,19 @@ export default function WorkProcess() {
   const data = [
     [
       "Book Consultation",
-      "Let’s discuss your book, target age group, and publishing goals. Our children’s book specialists will create a custom plan just for you based on your vision and budget.",
+      "Our children's book publishing specialists will create a custom plan just for you based on your vision and budget—ensuring affordable children's book publishing.",
     ],
     [
       "Manuscript Development",
-      "Work closely with our expert editors to shape your story. From fun characters to building an engaging plot, we help ensure your language is right for young readers.",
+      "From fun characters to building an engaging plot, we ensure your language is perfect for children's non-fiction writing.",
     ],
     [
       "Custom Illustrations",
-      "Need help planning illustrations? We’ve got that covered too! Once your words are ready, our talented illustrators bring your story to life with vibrant, child-friendly artwork that captures the heart of your book.",
+      "Once your words are ready, our talented team provides children's book illustration services to bring your story to life with vibrant artwork.",
     ],
     [
       "Formatting & Publishing",
-      "We polish every page—from layout to design—so your book looks great on the shelf or screen. Once you give the green light, we publish your book on top platforms like Amazon and Barnes & Noble, ready for little readers worldwide.",
+      "We polish every page—from layout to design—so your book looks great on the shelf or screen.",
     ]
   ]
   return (
@@ -25,7 +25,7 @@ export default function WorkProcess() {
         <div className="container">
           <div className="mb-10">
             <h2 className="2xl:text-[37px] xl:text-[30px] lg:text-[25px] md:text-[20px] text-[18px] font-montserrat font-bold leading-normal">
-            The Fun and Easy Way to Publish Your Children’s Book with Us
+            The Fun and Easy Way to <span className="text-primary">Children's Book Publishing</span> with Us
             </h2>
           </div>
           <AutoPlaySlider

@@ -13,7 +13,7 @@ export default function UnfinishedDraft() {
               Exhausted of Tossing Drafts in the Bin?
               </h2>
               <p className="font-comfortaa lg:text-[16px] md:text-[15px] text-[14px] font-normal leading-normal">
-              Have an idea but can’t seem to execute it? Our experts know why.
+              Have an idea but can't seem to execute it? Our experts know why.
               </p>
               <ul className="mt-8 grid sm:grid-cols-2 grid-cols-1 gap-x-5 gap-y-4">
                 {[

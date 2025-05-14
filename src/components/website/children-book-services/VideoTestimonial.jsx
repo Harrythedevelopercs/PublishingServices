@@ -22,17 +22,17 @@ export default function VideoTestimonial() {
             {[
               [
                 Review1,
-                "Liam S",
-                "BPS made the publishing process feel easy and exciting. From editing to illustrations, every detail was handled with care. My children’s book is now live on Amazon, and the feedback from readers has been amazing!",
+                "Liam S., Children's Book Author",
+                "BPS made the publishing process feel easy and exciting. From editing to illustrations, every detail was handled with care. My children's book is now live on Amazon, and the feedback from readers has been amazing!",
               ],
               [
                 Review2,
-                "Emily R",
-                "I had a story in my heart but didn’t know where to start. The team at Best Publishing Services took the time to listen and brought my idea to life with beautiful writing and artwork. Now my picture book is available across major platforms!",
+                "Emily R., Picture Book Author",
+                "I had a story in my heart but didn't know where to start. The team at Best Publishing Services took the time to listen and brought my idea to life with beautiful writing and artwork. Now my picture book is available across major platforms!",
               ],
               [
                 Review3,
-                "Jason T",
+                "Jason T., Middle Grade Fantasy Author",
                 "Professional, responsive, and incredibly creative—working with BPS exceeded all my expectations. They helped me build my author brand and launch a successful marketing campaign that brought real results.",
               ],
             ].map(([img, name, review], i) => (
