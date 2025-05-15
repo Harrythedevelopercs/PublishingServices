@@ -111,19 +111,19 @@ export default function PremiumServices({ label = false }) {
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8">
             <div className="max-w-[700px]">
               <h2 className="font-montserrat max-w-[600px] xl:text-[40px] lg:text-[30px] md:text-[25px] text-[20px] font-bold leading-normal mb-3">
-              Beyond Illustrations — An Entire Range of Publishing Services
+              Beyond Illustrations — A Range of <span className="text-primary">Book Illustration Services</span> 
               </h2>
               <p className="font-comfortaa xl:text-base lg:text-[14px] text-[12px] font-medium leading-normal">
-              Whether it is a story of triumph, a fantastic adventure, or a personal journey, our team of talented illustrators for hire produces lively, impressive illustrations. Our goal is to ensure that your story resonates with young readers and makes an impact.
+              Whether you need cartoon illustration services for a story of triumph, a fantastic adventure, or a personal journey, our team of talented children's book illustrators ensure your story resonates with young readers and makes an impact.
               </p>
               <ul className="mt-8 grid lg:grid-cols-2 grid-cols-1 gap-5">
                 {[
-                  "Children Illustrations",
+                  "Children's Book Illustration Services", 
+                  "Book editing", 
+                  "Book marketing", 
                   "eBook Writing",
-                  "Book Editing",
-                  "Book Formatting",
-                  "Book Marketing",
-                  "Book Cover Art",
+                  "Book formatting", 
+                  "Book Cover",
                 ].map((e, i) => (
                   <li
                     key={i}

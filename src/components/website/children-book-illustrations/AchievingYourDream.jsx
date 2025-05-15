@@ -13,24 +13,26 @@ export default function AchievingYourDream() {
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-5 items-center">
             <div className="max-w-[650px]">
               <h2 className="font-montserrat xl:text-[40px] lg:text-[30px] md:text-[25px] text-[20px] font-bold leading-normal mb-3 max-w-[550px]">
-              Can’t Seem to Get Your Book Together?
+              Can't Seem to Get Your Book Together?
               </h2>
               <p className="font-comfortaa xl:text-base lg:text-[14px] text-[12px] font-medium leading-normal">
-              Have an idea but can’t seem to execute it? Our experts know why.
+              Have an idea but can't seem to execute it? Our experts know why.
               </p>
               <ul className="mt-8 grid lg:grid-cols-2 grid-cols-1 gap-5">
                 {[
+                  
                   "Not enough time.",
-                  "Stuck in the story.",
-                  "Fear of not being good enough.",
-                  "No clear direction.",
-                  "Inconsistent writing routine.",
-                  "Editing feels overwhelming.",
                   "Unsure how to publish.",
+                  "Stuck in the story.",
                   "Worried about costs.",
+                  "Where to hire children's book illustrator?",
                   "Lack of guidance.",
-                  "Marketing feels too hard.",
-                  "Trying to make it perfect.",
+                  "No clear direction.",
+                  "Marketing feels hard.",
+                  "Inconsistent writing routine.",
+                  "Trying to make it perfect.", 
+                  "Feels overwhelming.",
+
                 ].map((e, i) => (
                   <li
                     key={i}

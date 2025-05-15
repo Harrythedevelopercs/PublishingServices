@@ -8,7 +8,7 @@ import { CTA } from "../index"
 export default function StunningIllustrations() {
   return (
     <section>
-      <div className="relative z-10 overflow-hidden lg:pt-[300px] lg:pb-[800px] py-[50px] lg:bg-transparent bg-gray-100 ">
+      <div className="relative z-10 overflow-hidden lg:pt-[300px] lg:pb-[700px] py-[50px] lg:bg-transparent bg-gray-100 ">
         <Image
           src={Banner}
           alt="banner"
@@ -20,7 +20,7 @@ export default function StunningIllustrations() {
               Books<strong className="text-primary">World</strong>
             </span>
             <h2 className="font-montserrat text-primary 2xl:text-[70px] lg:text-[60px] md:text-[40px] sm:text-[30px] text-[20px] font-bold leading-tight mb-3">
-            A World of Lively Children’s Book Illustration
+            A World of Lively Children’s Book Illustration Services
             </h2>
             <div className="flex justify-center">
               <CTA Text="Free Consultation" Href="#" />

@@ -20,16 +20,16 @@ export default function Hero() {
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-5 gap-y-8 items-center">
             <div className="text-white max-w-[600px]">
               <h1 className="font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal mb-3">
-              Illustrative Children’s Book for All Ages
+              Hire <span className="text-primary">Children's Book Illustrator</span> for All Ages
               </h1>
-              <p className="text-primary font-montserrat xl:text-[24px] lg:text-[20px] md:text-[18px] sm:text-[16px] text-[14px] font-bold leading-tight">
-              Not all masterpieces are located in the museum. Best Publishing Services create some
+              <p className="text-white font-montserrat xl:text-[20px] lg:text-[20px] md:text-[18px] sm:text-[16px] text-[14px] font-semibold leading-tight">
+              Not all masterpieces are located in the museum. Best Publishing Services creates some with our expert children's book illustration
               </p>
               <ul className="mt-8">
                 {[
                   "Infinite revisions",
                   "Timely completion of manuscripts",
-                  "24/7 helpline",
+                  "24/7 helpline for immediate support ",
                 ].map((e, i) => (
                   <li
                     key={i}

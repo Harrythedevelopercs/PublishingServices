@@ -31,7 +31,7 @@ const servicesMenu = [
   },
   {
     title: "Children Book Illustration",
-    link: "/children-book-illustration",
+    link: "/children-book-illustrations",
   },
   {
     title: "Children Book Services",

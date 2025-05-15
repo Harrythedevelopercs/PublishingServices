@@ -7,7 +7,10 @@ export default function ContentSec() {
         <div className="container">
           <div className="grid grid-cols-1 gap-y-8 text-center max-w-[1300px] mx-auto">
             <p className="xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] leading-normal font-comfortaa font-bold text-black">
-            Are you looking for visually appealing visuals for your children’s book? Custom artwork is what we at Best Publishing Services do to make your tale come to life. Our group is simple to work with, talented, and amiable. We provide excellent graphics at reasonable costs with no hidden fees. You maintain complete creative control, and we ensure that every detail meets your exact requirements. Whether your book is humorous, daring, or poignant, we’ll add the magic with lively, mesmerizing illustrations that children will adore.
+            Are you looking for visually appealing visuals for your children's book? BPS specializes in children's book illustration services with custom artwork. Our team is easy to work with, highly skilled, and friendly.
+            </p>
+            <p className="xl:text-[20px] lg:text-[18px] md:text-[16px] text-[14px] leading-normal font-comfortaa font-bold text-black">
+            We offer top-quality book illustration services at affordable rates—with no hidden fees. If you're ready to hire a children's book illustrator for professional kid's book illustration or need charming cartoon illustration services, we're here to help you illustrate children's books with precision and passion.
             </p>
             <div className="flex items-center justify-center gap-x-3 mt-5">
               <CTA Primary={true} Href="#" Text="Get A Free Quote" />

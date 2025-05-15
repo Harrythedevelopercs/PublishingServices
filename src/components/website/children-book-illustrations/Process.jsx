@@ -18,15 +18,15 @@ export default function Process() {
               {[
                 [
                   "Let’s Start with Your Story",
-                  "We begin with a personalized consultation to learn about your book idea, ideal age group, and publishing goals. Our children’s book experts will craft a tailored game plan that fits your vision and budget.",
+                  "Our children's book illustration services team creates a tailored game plan that fits your vision and budget.",
                 ],
                 [
                   "Shaping Your Manuscript",
-                  "Collaborate with seasoned editors who know how to turn ideas into unforgettable stories. From crafting lovable characters to fine-tuning language for young readers, we help every word shine.",
+                  "From creating lovable characters to fine-tuning language for young readers, we help every word shine.",
                 ],
                 [
                   "From Final Touches to Publishing",
-                  "We handle all the formatting and design details to ensure your book looks beautiful in print and digital. When you’re happy with the final product, we publish it on major platforms like Amazon and Barnes & Noble—so it’s ready for kids everywhere to enjoy.",
+                  "With striking kid's book illustration and a professional layout, your story is polished and ready for launch. ",
                 ],
               ].map(([title, description], i) => (
                 <div
