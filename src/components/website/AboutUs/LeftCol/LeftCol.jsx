@@ -27,7 +27,7 @@ export default function LeftCol() {
             </p>
             <div className="flex mt-5 gap-3 ">
               <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
-              <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+              <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
             </div>
           </div>
         </div>

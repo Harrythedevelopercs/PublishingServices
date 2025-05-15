@@ -25,7 +25,7 @@ export default function BPSFiveSection() {
                 </p>
                 <div className="flex gap-3 mt-5">
                   <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
-                  <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                  <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function BPSFiveSection() {
                 </div>
                 <div className="flex gap-3 mt-8">
                   <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
-                  <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                  <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
                 </div>
               </div>
               <div className="">

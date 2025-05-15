@@ -37,7 +37,7 @@ export default function BPSfourSection() {
               </p>
               <div className="flex gap-3 mt-5">
                 <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
-                <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
               </div>
             </div>
             <div className="xl:col-span-7 lg:col-span-6 col-span-12 flex justify-end">

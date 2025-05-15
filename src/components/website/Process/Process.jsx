@@ -102,7 +102,7 @@ export default function Process() {
           />
           <div className="flex gap-3 mt-10 pb-10 content-center mx-auto justify-center ">
             <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
-            <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+            <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
           </div>
         </div>
       </div>

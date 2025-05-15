@@ -23,7 +23,7 @@ export default function HeroBanner() {
               </p>
               <div className={Style.container_CTA}>
                 <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
-                <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
               </div>
               <div className="">
                 <p className="flex mt-3 items-center  text-white font-comfortaa gap-2 text-[12px] lg:text-[13px] xl:text-[15px]">

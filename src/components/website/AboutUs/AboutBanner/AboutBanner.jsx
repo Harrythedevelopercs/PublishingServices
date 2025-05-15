@@ -34,7 +34,7 @@ export default function AboutBanner() {
             </div>
             <div className="flex md:mt-10 gap-5 px-4 md:px-0">
               <CTA Primary={true} Href={"#"} Text={"Click for a Free Quote"} />
-              <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+              <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
             </div>
             <div className="mt-5"></div>
             <LogoCarousel col="basis-1/5" />

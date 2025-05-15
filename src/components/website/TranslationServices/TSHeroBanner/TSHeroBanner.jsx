@@ -28,7 +28,7 @@ export default function TSHeroBanner() {
               </p>
               <div className="flex gap-3 mt-5">
                 <CTA Primary={true} Href={"#"} Text={"Get A Free Quote"} />
-                <CTA Primary={false} Href={"#"} Text={"Click for a Free Quote"} />
+                <CTA Primary={false} Href={"#"} Text={"Free Consultation"} />
               </div>
             </div>
             <div className="max-w-[500px] lg:ms-auto lg:mx-0 mx-auto relative  pb-10 ">
