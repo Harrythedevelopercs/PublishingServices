@@ -18,7 +18,7 @@ export default function AchievementsShowcase() {
               A Portfolio That Shines the Limelight on Our Work
             </h2>
             <p className="font-comfortaa xl:text-[20px] lg:text-[16px] md:text-[15px] text-sm font-medium leading-normal">
-              Take a peak at our portfolio to see we don’t just talk the talk, but we walk all of our commitments.
+              Searching to hire a book marketer who does the job? Take a peak at our book portfolio to see we don't just talk the talk, but we walk all of our commitments.
             </p>
           </div>
           <div className="relative z-10 mt-14">
