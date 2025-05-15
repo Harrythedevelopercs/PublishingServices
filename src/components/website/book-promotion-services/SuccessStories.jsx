@@ -12,11 +12,11 @@ export default function SuccessStories() {
         <span className="md:block hidden bg-primary absolute -z-10 xl:w-[309px] w-[250px] xl:h-[309px] h-[250px] rounded-full -left-[50px] lg:bottom-[250px] bottom-[600px]"></span>
         <div className="container">
           <div className="text-center">
-            <h2 className="font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal mb-3">
-              <span className="text-primary">Proven SEO Success:</span> Strategies That Drive Results and Growth
+            <h2 className="font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold leading-normal mb-3">Proven <span className="text-primary">Book Marketing Services</span>  via SEO Success: Strategies That Drive Results and Growth
+             
             </h2>
             <p className="text-center font-comfortaa xl:text-[16px] md:text-[15px] text-sm font-medium leading-normal mb-3">
-              At Best Publishing Services, our SEO team delivers results that matter.
+             At Best Publishing Services, our SEO team delivers results that matter. 
             </p>
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-y-8 gap-x-5 lg:mt-[60px]">
@@ -28,7 +28,10 @@ export default function SuccessStories() {
               />
             </div>
             <div>
-              <div className="sm:grid sm:grid-cols-3 flex flex-wrap justify-center gap-5 items-center">
+              <h4 className="font-montserrat sm:text-[26px] text-[20px] font-bold leading-tight mt-8 mb-3 max-w-[500px]">
+                Tangible Results: Real Growth You Can Measure
+              </h4>
+              <div className="sm:grid sm:grid-cols-3 flex flex-wrap justify-center gap-5 items-center my-5">
                 {[
                   ["5K+", "Impressions"],
                   ["1K+", "New Visitors"],
@@ -52,11 +55,9 @@ export default function SuccessStories() {
                   </div>
                 ))}
               </div>
-              <h4 className="font-montserrat sm:text-[26px] text-[20px] font-bold leading-tight mt-8 mb-3 max-w-[500px]">
-                Tangible Results: Real Growth You Can Measure
-              </h4>
+              
               <p className="font-comfortaa xl:text-[16px] md:text-[15px] text-sm font-medium leading-normal">
-                Implementing strategic, ROI-focused SEO tactics has helped our clients grow their online presence, attract the right audience, and achieve significant business results. If you’re looking to increase visibility, attract your target audience, and grow your brand, we’re here to help.
+                Implementing strategic, ROI-focused SEO tactics has helped our clients grow their online presence, attract the right audience, and achieve significant business results.
               </p>
               <div className="flex mt-6">
                 <CTA Href="#" Text="Free Consultation" />
