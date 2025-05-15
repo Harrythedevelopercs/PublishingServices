@@ -17,17 +17,17 @@ export default function StrongPresence() {
             </div>
             <div className="max-w-[650px] lg:ms-auto">
               <h2 className="font-montserrat xl:text-[40px] md:text-[30px] sm:text-[25px] text-[20px]  font-bold leading-normal mb-3">
-              Build Your Author Brand with Our Children’s Book Marketing Services
+              Build Your Brand with Our <span className="text-primary">Children's Book Advertising</span> Services
               </h2>
               <p className="font-comfortaa xl:text-[16px] md:text-[15px] text-sm font-normal leading-normal">
-              To genuinely shine in today’s digital world, simply publishing your children’s book is insufficient—you must also have a strong online presence. However, with trends always changing, understanding the world of book marketing may be difficult. That’s when Best Publishing Services comes in. As your trusted children’s book marketing partner, we provide customized promotional strategies adapted to your goals and budget—ensuring that your book is recognized by the readers who matter most.
+             With trends changing, understanding the world of children's book promotion may be difficult. As your trusted children's book partner, we provide customized promotional strategies adapted to your goals and budget—ensuring your book is recognized by the readers who matter most.
               </p>
               <ul className="mt-8 grid grid-cols-2 gap-x-5 gap-y-4">
                 {[
-                  "Rejected Manuscript",
-                  "Lack of productivity",
-                  "Creative block",
-                  "Lack of motivation",
+                  // "Rejected Manuscript",
+                  // "Lack of productivity",
+                  // "Creative block",
+                  // "Lack of motivation",
                 ].map((e, i) => (
                   <li
                     key={i}
